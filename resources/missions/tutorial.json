@@ -1,0 +1,79 @@
+{
+    "mode": "Fácil",
+    "survivors": "4+",
+    "time": "20min",
+    "description": [
+        "Estávamos com alguns amigos quando a primeira sirene começou a tocar, seguida rapidamente por diversas outras.",
+        "Em menos de uma hora, tudo mudou. A televisão e o rádio anunciavam péssimas notícias. Decidimos nos abrigar",
+        "na casa de nossos vizinhos que era muito mais segura. Tudo que precisamos fazer é atravessar a rua.",
+        "Mas ELES já estavam lá..."
+    ],
+    "tiles": {
+        "0": {
+            "tile": "2B",
+            "x": 0,
+            "y": 230,
+            "rotate": 2
+        },
+        "1": {
+            "tile": "1B",
+            "x": 550,
+            "y": 230,
+            "rotate": 0
+        }
+    },
+    "items": {
+        "0": {
+            "item": "spawn_5",
+            "left": -23,
+            "top": 702,
+            "rotate": 3
+        },
+        "1": {
+            "item": "objective_8",
+            "left": 69,
+            "top": 293,
+            "rotate": 0
+        },
+        "2": {
+            "item": "walker_40",
+            "left": 259,
+            "top": 633,
+            "rotate": 0
+        },
+        "3": {
+            "item": "door_10",
+            "left": 375,
+            "top": 516,
+            "rotate": 2
+        },
+        "4": {
+            "item": "walker_39",
+            "left": 813,
+            "top": 217,
+            "rotate": 0
+        },
+        "5": {
+            "item": "entry_1",
+            "left": 974,
+            "top": 659,
+            "rotate": 0
+        },
+        "6": {
+            "item": "door_9",
+            "left": 1043,
+            "top": 353,
+            "rotate": 1
+        }        
+    },
+    "objective": [
+        "- Pegar a ficha de objetivo."
+    ],
+    "special_rules": [
+        "- Pilha de cartas de Zumbi reduzida: Utilize somente as cartas numeradas como 1, 2, 3, 4 e 41 para montar a Pilha de",
+        "Compras dos Zumbis. Coloque as outras cartas na caixa.",
+        "- Equipamento Inicial Especial: Não entregue os habituais equipamentos iniciais: Pistola, Machado e Pé-de-cabra. Ao",
+        "invés disso, coloque-os no topo da pilha de cartas de Equipamento. Elas serão as três primeiras cartas adquiridas quando",
+        "os Sobreviventes Procurarem em uma Zona. Cartas de Panela são distribuídas normalmente."
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "mode": "Difícil",
+    "survivors": "6+",
+    "time": "180min",
+    "description": [
+        "Acabamos de matar um zumbi que era o prefeito desta cidade. Ele estava carregando um fax do chefe de polícia que explicava",
+        "como fugir de maneira segura deste pesadelo, uma passagem subterrânea, antiga, que havia se transformado num bunker, perto da",
+        "estação de polícia. Lá conseguiremos encontrar munição, estoque de comida e quem sabe até um chuveiro. Este bunker seria o lugar",
+        "perfeito para nos abrigarmos. Só tem um porém, a entrada dele é controlada à distância, e esse distrito está infestado de zumbis.",
+        "É uma missão bem perigosa, mas parece valer muito a pena. O que não te mata hoje, pode te matar amanhã."
+    ],
+    "tiles": {
+        "0": {
+            "tile": "2C",
+            "x": 0,
+            "y": 230,
+            "rotate": 2
+        },
+        "1": {
+            "tile": "7B",
+            "x": 550,
+            "y": 230,
+            "rotate": 1
+        },
+        "2": {
+            "tile": "4B",
+            "x": 1100,
+            "y": 230,
+            "rotate": 1
+        },
+        "3": {
+            "tile": "1B",
+            "x": 0,
+            "y": 780,
+            "rotate": 1
+        },
+        "4": {
+            "tile": "5C",
+            "x": 550,
+            "y": 780,
+            "rotate": 1
+        },
+        "5": {
+            "tile": "3C",
+            "x": 1100,
+            "y": 780,
+            "rotate": 1
+        }
+    },
+    "items": "",
+    "objective": [
+        "- Coloque ao menos um Sobrevivente na Zona do bunker mostrada no tabuleiro. O bunker deve estar livre de Zumbis."
+    ],
+    "special_rules": [
+        "- A porta azul não pode ser aberta até que alguém pegue a Ficha de Objetivo azul.",
+        "- A Zona de Entrada Azul de Zumbis será ativada assim que que alguém pegar a Ficha de Objetivo azul.",
+        "- A porta verde não pode ser aberta até que alguém pegue a Ficha de Objetivo verde.",
+        "- Cada Ficha de Objetivo rende 5 pontos de experiência ao Sobrevivente que a pegou.",
+        "- É permitido dirigir os carros.",
+        "- Só é permitido Procurar no Tunadão uma vez. Ele contém ou as Gêmeas do Mal, ou a Semi-automática (pegue aleatoriamente).",
+        "- É permitido Procurar o carro da polícia mais de uma vez. Pegue cartas até que encontre uma arma. Descarte as outras cartas.",
+        "A carta Aaahh! funciona normalmente e faz surgir um Lerdo, interrompendo a Procura."
+    ]
+}

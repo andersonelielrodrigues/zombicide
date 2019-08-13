@@ -1,0 +1,238 @@
+{
+    "image": {
+        "id": "tileset",
+        "src": "resources/sprites/tileset.jpg",
+        "width": "2200",
+        "height": "2750",
+        "mime": "image/jpeg"
+    },
+    "frames": {
+		"general": {
+            "position": "absolute",
+			"container": "oTable",
+            "drag": false,
+            "rotate": false,
+            "flip": false,
+            "destroy": false,
+            "draw": false
+        },
+		"tiles": {
+			"1C": {
+				"id": "tile1c",
+				"width": "550",
+				"height": "550",
+				"left": "0",
+				"top": "0",
+				"copies": "1",
+				"x": "",
+				"y": "",
+				"z-index": "0",
+                "title": ""
+			},
+			"3C": {
+				"id": "tile3c",
+				"width": "550",
+				"height": "550",
+				"left": "0",
+				"top": "550",
+				"copies": "1",
+				"x": "",
+				"y": "",
+				"z-index": "0",
+                "title": ""
+			},
+			"1B": {
+				"id": "tile1b",
+				"width": "550",
+				"height": "550",
+				"left": "550",
+				"top": "0",
+				"copies": "1",
+				"x": "",
+				"y": "",
+				"z-index": "0",
+                "title": ""
+			},
+			"3B": {
+				"id": "tile3b",
+				"width": "550",
+				"height": "550",
+				"left": "550",
+				"top": "550",
+				"copies": "1",
+				"x": "",
+				"y": "",
+				"z-index": "0",
+                "title": ""
+			},
+			"2C": {
+				"id": "tile2c",
+				"width": "550",
+				"height": "550",
+				"left": "0",
+				"top": "1100",
+				"copies": "1",
+				"x": "",
+				"y": "",
+				"z-index": "0",
+                "title": ""
+			},
+			"6C": {
+				"id": "tile6c",
+				"width": "550",
+				"height": "550",
+				"left": "550",
+				"top": "1100",
+				"copies": "1",
+				"x": "",
+				"y": "",
+				"z-index": "0",
+                "title": ""
+			},
+			"2B": {
+				"id": "tile2b",
+				"width": "550",
+				"height": "550",
+				"left": "1100",
+				"top": "0",
+				"copies": "1",
+				"x": "",
+				"y": "",
+				"z-index": "0",
+                "title": ""
+			},
+			"6B": {
+				"id": "tile6b",
+				"width": "550",
+				"height": "550",
+				"left": "1100",
+				"top": "550",
+				"copies": "1",
+				"x": "",
+				"y": "",
+				"z-index": "0",
+                "title": ""
+			},
+			"4B": {
+				"id": "tile4b",
+				"width": "550",
+				"height": "550",
+				"left": "1100",
+				"top": "1100",
+				"copies": "1",
+				"x": "",
+				"y": "",
+				"z-index": "0",
+                "title": ""
+			},
+			"5B": {
+				"id": "tile5b",
+				"width": "550",
+				"height": "550",
+				"left": "0",
+				"top": "1650",
+				"copies": "1",
+				"x": "",
+				"y": "",
+				"z-index": "0",
+                "title": ""
+			},
+			"4C": {
+				"id": "tile4c",
+				"width": "550",
+				"height": "550",
+				"left": "550",
+				"top": "1650",
+				"copies": "1",
+				"x": "",
+				"y": "",
+				"z-index": "0",
+                "title": ""
+			},
+			"5C": {
+				"id": "tile5c",
+				"width": "550",
+				"height": "550",
+				"left": "1100",
+				"top": "1650",
+				"copies": "1",
+				"x": "",
+				"y": "",
+				"z-index": "0",
+                "title": ""
+			},
+			"4D": {
+				"id": "tile4d",
+				"width": "550",
+				"height": "550",
+				"left": "1650",
+				"top": "0",
+				"copies": "1",
+				"x": "",
+				"y": "",
+				"z-index": "0",
+                "title": ""
+			},
+			"5D": {
+				"id": "tile5d",
+				"width": "550",
+				"height": "550",
+				"left": "1650",
+				"top": "550",
+				"copies": "1",
+				"x": "",
+				"y": "",
+				"z-index": "0",
+                "title": ""
+			},
+			"4E": {
+				"id": "tile4e",
+				"width": "550",
+				"height": "550",
+				"left": "1650",
+				"top": "1100",
+				"copies": "1",
+				"x": "",
+				"y": "",
+				"z-index": "0",
+                "title": ""
+			},
+			"5E": {
+				"id": "tile5e",
+				"width": "550",
+				"height": "550",
+				"left": "1650",
+				"top": "1650",
+				"copies": "1",
+				"x": "",
+				"y": "",
+				"z-index": "0",
+                "title": ""
+			},
+			"5F": {
+				"id": "tile5f",
+				"width": "550",
+				"height": "550",
+				"left": "0",
+				"top": "2200",
+				"copies": "1",
+				"x": "",
+				"y": "",
+				"z-index": "0",
+                "title": ""
+			},
+			"7B": {
+				"id": "tile7b",
+				"width": "550",
+				"height": "550",
+				"left": "550",
+				"top": "2200",
+				"copies": "1",
+				"x": "",
+				"y": "",
+				"z-index": "0",
+                "title": ""
+			}
+		}
+    }
+}

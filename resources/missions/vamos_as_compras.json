@@ -1,0 +1,75 @@
+{
+    "mode": "Difícil",
+    "survivors": "6+",
+    "time": "180min",
+    "description": [
+        "Os zumbis são perigosos, mas estão longe de ser a maior ameaça. A todo tempo temos que procurar mais comida, estoque,",
+        "armas, munição e, acima de tudo, um abrigo seguro. Agora estamos no centro da cidade, um cemitério de vidro e concreto,",
+        "com certeza, infestado. Apesar de tudo, ainda temos fé que vamos nos virar por aqui e sobreviver mais alguns dias.",
+        "Lembre-se, devemos abrir uma porta de cada vez e não podemos fazer muito barulho, caso contrário, em poucos minutos todos",
+        "os zumbis da cidade vão estar por aqui! Ontem eu sonhei com bacon. Uma tenra e crocante fatia de bacon."
+    ],
+    "tiles": {
+        "0": {
+            "tile": "5D",
+            "x": 0,
+            "y": 230,
+            "rotate": 3
+        },
+        "1": {
+            "tile": "2C",
+            "x": 550,
+            "y": 230,
+            "rotate": 3
+        },
+        "2": {
+            "tile": "1C",
+            "x": 1100,
+            "y": 230,
+            "rotate": 2
+        },
+        "3": {
+            "tile": "7B",
+            "x": 0,
+            "y": 780,
+            "rotate": 1
+        },
+        "4": {
+            "tile": "5C",
+            "x": 550,
+            "y": 780,
+            "rotate": 0
+        },
+        "5": {
+            "tile": "6B",
+            "x": 1100,
+            "y": 780,
+            "rotate": 1
+        },
+        "6": {
+            "tile": "5E",
+            "x": 0,
+            "y": 1330,
+            "rotate": 1
+        },
+        "7": {
+            "tile": "1B",
+            "x": 550,
+            "y": 1330,
+            "rotate": 0
+        },
+        "8": {
+            "tile": "4B",
+            "x": 1100,
+            "y": 1330,
+            "rotate": 2
+        }
+    },
+    "items": "",
+    "objective": [
+        "- Pegar todas as Fichas de Objetivo."
+    ],
+    "special_rules": [
+        "- Cada Ficha de Objetivo rende 5 pontos de experiência ao Sobrevivente que a pegou."
+    ]
+}

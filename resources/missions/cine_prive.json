@@ -1,0 +1,52 @@
+{
+    "mode": "Fácil",
+    "survivors": "6+",
+    "time": "45min",
+    "description": [
+        "Tudo já estava a caminho do caos quando tivemos um acidente na usina nuclear. Antes de desaparecer, as autoridades colocaram",
+        "um grande número de técnicos e funcionários da usina em uma das alas do hospital sob quarentena. Temos que garantir que esse",
+        "pessoal fique trancado lá para sempre, ainda mais se estiverem infectados. Por que? Porque só existe uma coisa pior que um zumbi:",
+        "um zumbi radioativo! Eu me pergunto para onde foram todos os cachorros."
+    ],
+    "tiles": {
+        "0": {
+            "tile": "3C",
+            "x": 0,
+            "y": 230,
+            "rotate": 0
+        },
+        "1": {
+            "tile": "2C",
+            "x": 550,
+            "y": 230,
+            "rotate": 2
+        },
+        "2": {
+            "tile": "2B",
+            "x": 0,
+            "y": 780,
+            "rotate": 0
+        },
+        "3": {
+            "tile": "4C",
+            "x": 550,
+            "y": 780,
+            "rotate": 2
+        }
+    },
+    "items": "",
+    "objective": [
+        "- Neutralizar as Zonas de Entrada de Zumbis (veja regras especiais)."
+    ],
+    "special_rules": [
+        "- Cada Ficha de Objetivo rende 5 pontos de experiência ao Sobrevivente que a pegou.",
+        "- Portas automáticas: Abrir uma porta significa abrir as duas portas do prédio.",
+        "- Ocupação Zumbi: Cada Zona do prédio contém 1 Lerdo no início do jogo. Resolva a Entrada de Zumbis normalmente quando abrir portas.",
+        "- Saída Zumbi: Duas Zonas indicadas no tabuleiro possuem sete fichas de barulho permanentes. Estas Zonas representam as saídas pelas",
+        "quais os Zumbis podem escapar. Se um Zumbi escapar por uma destas Zonas, remova ele do tabuleiro e coloque-o ao lado. Se quatro Zumbis",
+        "escaparem desta maneira, todos perdem a partida imediatamente.",
+        "- Neutralizando as Zonas de Entrada de Zumbi: Um Sobrevivente pode neutralizar uma Zona de Entrada ao custo de uma Ação, se estiver nesta",
+        "mesma Zona. A Zona não deve conter nenhum Zumbi.",
+        "* ATENÇÃO: Note que estas Zonas de Entrada de Zumbis estão ativas mesmo se as portas estiverem trancadas."
+    ]
+}

@@ -1,0 +1,880 @@
+{
+    "image": {
+        "id": "itemset",
+        "src": "resources/sprites/itemset.jpg",
+        "width": "1050",
+        "height": "920",
+        "mime": "image/jpeg"
+    },
+    "frames": {
+        "general": {
+            "position": "absolute",
+            "container": "oControls",
+            "drag": false,
+            "rotate": false,
+            "flip": false,
+            "destroy": false,
+            "drawItem": true,
+            "drawSpawn": false,
+            "text": {
+                "font": "LandSpeedRecord",
+                "size": "38px",
+                "fillStyle": "white",
+                "shadowOffset": 3,
+                "shadowColor": "rgba(0,0,0,0.3)",
+                "shadowBlur": 3,
+                "txtX": 215,
+                "txtY": 115
+            }
+        },
+        "items": {
+            "Verso": {
+                "id": "versoItem",
+                "top": "230",
+                "left": "900",
+                "width": "150",
+                "height": "230",
+                "copies": "1",
+                "x": "995",
+                "y": "0",
+                "z-index": "1",
+                "title": "",
+                "features": ""
+            },
+            "Aaahh": {
+                "id": "aaahh",
+                "top": "0",
+                "left": "0",
+                "width": "150",
+                "height": "230",
+                "copies": "1",
+                "x": "1145",
+                "y": "0",
+                "z-index": "1",
+                "title": "",
+                "features": {
+                    "range": "",
+                    "dice": "",
+                    "precision": "",
+                    "damage": "",
+                    "use": {
+                        "zombies": {
+                            "status": false,
+                            "noise": false
+                        },
+                        "doors": {
+                            "status": false,
+                            "noise": false
+                        }
+                    },
+                    "text": [
+                        "O que parecia ser uma pilha",
+                        "de trapos na verdade era um",
+                        "zumbi. Coloque um lerdo na",
+                        "sala/zona onde você",
+                        "acabou de procurar."
+                    ],
+                    "eviltwin": false
+                }
+            },
+            "Agua": {
+                "id": "agua",
+                "top": "0",
+                "left": "150",
+                "width": "150",
+                "height": "230",
+                "copies": "1",
+                "x": "1145",
+                "y": "0",
+                "z-index": "1",
+                "title": "",
+                "features": {
+                    "range": "",
+                    "dice": "",
+                    "precision": "",
+                    "damage": "",
+                    "use": {
+                        "zombies": {
+                            "status": false,
+                            "noise": false
+                        },
+                        "doors": {
+                            "status": false,
+                            "noise": false
+                        }
+                    },
+                    "text": [
+                        ""
+                    ],
+                    "eviltwin": false
+                }
+            },
+            "Bastao": {
+                "id": "bastao",
+                "top": "0",
+                "left": "300",
+                "width": "150",
+                "height": "230",
+                "copies": "1",
+                "x": "1145",
+                "y": "0",
+                "z-index": "1",
+                "title": "",
+                "features": {
+                    "range": "0",
+                    "dice": "1",
+                    "precision": "3+",
+                    "damage": "1",
+                    "use": {
+                        "zombies": {
+                            "status": true,
+                            "noise": false
+                        },
+                        "doors": {
+                            "status": false,
+                            "noise": false
+                        }
+                    },
+                    "text": [
+                        ""
+                    ],
+                    "eviltwin": false
+                }
+            },
+            "Cano_Serrado": {
+                "id": "canoserrado",
+                "top": "230",
+                "left": "0",
+                "width": "150",
+                "height": "230",
+                "copies": "1",
+                "x": "1145",
+                "y": "0",
+                "z-index": "1",
+                "title": "",
+                "features": {
+                    "range": "0-1",
+                    "dice": "2",
+                    "precision": "3+",
+                    "damage": "1",
+                    "use": {
+                        "zombies": {
+                            "status": true,
+                            "noise": true
+                        },
+                        "doors": {
+                            "status": false,
+                            "noise": false
+                        }
+                    },
+                    "text": [
+                        "1 ação para recarregar.",
+                        "Livre na fase final."
+                    ],
+                    "eviltwin": true
+                }
+            },
+            "Comida_Enlatada": {
+                "id": "comidaenlatada",
+                "top": "230",
+                "left": "150",
+                "width": "150",
+                "height": "230",
+                "copies": "1",
+                "x": "1145",
+                "y": "0",
+                "z-index": "1",
+                "title": "",
+                "features": {
+                    "range": "",
+                    "dice": "",
+                    "precision": "",
+                    "damage": "",
+                    "use": {
+                        "zombies": {
+                            "status": false,
+                            "noise": false
+                        },
+                        "doors": {
+                            "status": false,
+                            "noise": false
+                        }
+                    },
+                    "text": [
+                        ""
+                    ],
+                    "eviltwin": false
+                }
+            },
+            "Escopeta": {
+                "id": "escopeta",
+                "top": "230",
+                "left": "300",
+                "width": "150",
+                "height": "230",
+                "copies": "1",
+                "x": "1145",
+                "y": "0",
+                "z-index": "1",
+                "title": "",
+                "features": {
+                    "range": "0-1",
+                    "dice": "2",
+                    "precision": "4+",
+                    "damage": "2",
+                    "use": {
+                        "zombies": {
+                            "status": true,
+                            "noise": true
+                        },
+                        "doors": {
+                            "status": false,
+                            "noise": false
+                        }
+                    },
+                    "text": [
+                        ""
+                    ],
+                    "eviltwin": false
+                }
+            },
+            "Frigideira": {
+                "id": "frigideira",
+                "top": "0",
+                "left": "450",
+                "width": "150",
+                "height": "230",
+                "copies": "1",
+                "x": "1145",
+                "y": "0",
+                "z-index": "1",
+                "title": "",
+                "features": {
+                    "range": "0",
+                    "dice": "1",
+                    "precision": "6+",
+                    "damage": "1",
+                    "use": {
+                        "zombies": {
+                            "status": true,
+                            "noise": false
+                        },
+                        "doors": {
+                            "status": false,
+                            "noise": false
+                        }
+                    },
+                    "text": [
+                        ""
+                    ],
+                    "eviltwin": false
+                }
+            },
+            "Garrafa": {
+                "id": "garrafa",
+                "top": "230",
+                "left": "450",
+                "width": "150",
+                "height": "230",
+                "copies": "1",
+                "x": "1145",
+                "y": "0",
+                "z-index": "1",
+                "title": "",
+                "features": {
+                    "range": "",
+                    "dice": "",
+                    "precision": "",
+                    "damage": "",
+                    "use": {
+                        "zombies": {
+                            "status": false,
+                            "noise": false
+                        },
+                        "doors": {
+                            "status": false,
+                            "noise": false
+                        }
+                    },
+                    "text": [
+                        ""
+                    ],
+                    "eviltwin": false
+                }
+            },
+            "Gasolina": {
+                "id": "gasolina",
+                "top": "460",
+                "left": "0",
+                "width": "150",
+                "height": "230",
+                "copies": "1",
+                "x": "1145",
+                "y": "0",
+                "z-index": "1",
+                "title": "",
+                "features": {
+                    "range": "",
+                    "dice": "",
+                    "precision": "",
+                    "damage": "",
+                    "use": {
+                        "zombies": {
+                            "status": false,
+                            "noise": false
+                        },
+                        "doors": {
+                            "status": false,
+                            "noise": false
+                        }
+                    },
+                    "text": [
+                        ""
+                    ],
+                    "eviltwin": false
+                }
+            },
+            "Katana": {
+                "id": "katana",
+                "top": "460",
+                "left": "150",
+                "width": "150",
+                "height": "230",
+                "copies": "1",
+                "x": "1145",
+                "y": "0",
+                "z-index": "1",
+                "title": "",
+                "features": {
+                    "range": "0",
+                    "dice": "2",
+                    "precision": "4+",
+                    "damage": "1",
+                    "use": {
+                        "zombies": {
+                            "status": true,
+                            "noise": false
+                        },
+                        "doors": {
+                            "status": false,
+                            "noise": false
+                        }
+                    },
+                    "text": [
+                        ""
+                    ],
+                    "eviltwin": false
+                }
+            },
+            "Lanterna": {
+                "id": "lanterna",
+                "top": "460",
+                "left": "300",
+                "width": "150",
+                "height": "230",
+                "copies": "1",
+                "x": "1145",
+                "y": "0",
+                "z-index": "1",
+                "title": "",
+                "features": {
+                    "range": "",
+                    "dice": "",
+                    "precision": "",
+                    "damage": "",
+                    "use": {
+                        "zombies": {
+                            "status": false,
+                            "noise": false
+                        },
+                        "doors": {
+                            "status": false,
+                            "noise": false
+                        }
+                    },
+                    "text": [
+                        "Escolha uma carta",
+                        "extra quando",
+                        "estiver buscando."
+                    ],
+                    "eviltwin": false
+                }
+            },
+            "Machado": {
+                "id": "machado",
+                "top": "460",
+                "left": "450",
+                "width": "150",
+                "height": "230",
+                "copies": "1",
+                "x": "1145",
+                "y": "0",
+                "z-index": "1",
+                "title": "",
+                "features": {
+                    "range": "0",
+                    "dice": "1",
+                    "precision": "4+",
+                    "damage": "2",
+                    "use": {
+                        "zombies": {
+                            "status": true,
+                            "noise": false
+                        },
+                        "doors": {
+                            "status": true,
+                            "noise": true
+                        }
+                    },
+                    "text": [
+                        ""
+                    ],
+                    "eviltwin": false
+                }
+            },
+            "Machete": {
+                "id": "machete",
+                "top": "0",
+                "left": "600",
+                "width": "150",
+                "height": "230",
+                "copies": "1",
+                "x": "1145",
+                "y": "0",
+                "z-index": "1",
+                "title": "",
+                "features": {
+                    "range": "0",
+                    "dice": "1",
+                    "precision": "4+",
+                    "damage": "2",
+                    "use": {
+                        "zombies": {
+                            "status": true,
+                            "noise": false
+                        },
+                        "doors": {
+                            "status": false,
+                            "noise": false
+                        }
+                    },
+                    "text": [
+                        ""
+                    ],
+                    "eviltwin": true
+                }
+            },
+            "Mascara": {
+                "id": "mascara",
+                "top": "230",
+                "left": "600",
+                "width": "150",
+                "height": "230",
+                "copies": "1",
+                "x": "1145",
+                "y": "0",
+                "z-index": "1",
+                "title": "",
+                "features": {
+                    "range": "",
+                    "dice": "",
+                    "precision": "",
+                    "damage": "",
+                    "use": {
+                        "zombies": {
+                            "status": false,
+                            "noise": false
+                        },
+                        "doors": {
+                            "status": false,
+                            "noise": false
+                        }
+                    },
+                    "text": [
+                        "Descarte-a para",
+                        "evitar um dano",
+                        "em seu portador."
+                    ],
+                    "eviltwin": false
+                }
+            },
+            "Mira": {
+                "id": "mira",
+                "top": "460",
+                "left": "600",
+                "width": "150",
+                "height": "230",
+                "copies": "1",
+                "x": "1145",
+                "y": "0",
+                "z-index": "1",
+                "title": "",
+                "features": {
+                    "range": "",
+                    "dice": "",
+                    "precision": "",
+                    "damage": "",
+                    "use": {
+                        "zombies": {
+                            "status": false,
+                            "noise": false
+                        },
+                        "doors": {
+                            "status": false,
+                            "noise": false
+                        }
+                    },
+                    "text": [
+                        "Combine com o rifle",
+                        "para obter o rifle",
+                        "'Franco atirador'.",
+                        "O sobrevivente escolhe",
+                        "livremente o alvo à distância."
+                    ],
+                    "eviltwin": false
+                }
+            },
+            "Molotov": {
+                "id": "molotov",
+                "top": "0",
+                "left": "750",
+                "width": "150",
+                "height": "230",
+                "copies": "1",
+                "x": "1145",
+                "y": "0",
+                "z-index": "1",
+                "title": "",
+                "features": {
+                    "range": "0-1",
+                    "dice": "",
+                    "precision": "",
+                    "damage": "Total",
+                    "use": {
+                        "zombies": {
+                            "status": true,
+                            "noise": true
+                        },
+                        "doors": {
+                            "status": false,
+                            "noise": false
+                        }
+                    },
+                    "text": [
+                        ""
+                    ],
+                    "eviltwin": false
+                }
+            },
+            "Motosserra": {
+                "id": "motosserra",
+                "top": "230",
+                "left": "750",
+                "width": "150",
+                "height": "230",
+                "copies": "1",
+                "x": "1145",
+                "y": "0",
+                "z-index": "1",
+                "title": "",
+                "features": {
+                    "range": "0",
+                    "dice": "5",
+                    "precision": "5+",
+                    "damage": "2",
+                    "use": {
+                        "zombies": {
+                            "status": true,
+                            "noise": true
+                        },
+                        "doors": {
+                            "status": true,
+                            "noise": true
+                        }
+                    },
+                    "text": [
+                        ""
+                    ],
+                    "eviltwin": false
+                }
+            },
+            "Muita_Municao_Escopeta": {
+                "id": "muitamunicaoescopeta",
+                "top": "460",
+                "left": "750",
+                "width": "150",
+                "height": "230",
+                "copies": "1",
+                "x": "1145",
+                "y": "0",
+                "z-index": "1",
+                "title": "",
+                "features": {
+                    "range": "",
+                    "dice": "",
+                    "precision": "",
+                    "damage": "",
+                    "use": {
+                        "zombies": {
+                            "status": false,
+                            "noise": false
+                        },
+                        "doors": {
+                            "status": false,
+                            "noise": false
+                        }
+                    },
+                    "text": [
+                        "Permite relançar",
+                        "os dados em um combate",
+                        "uma vez por turno usando",
+                        "Cano serrado, Escopeta e",
+                        "Machescopeta."
+                    ],
+                    "eviltwin": false
+                }
+            },
+            "Muita_Municao_Pistola": {
+                "id": "muitamunicaopistola",
+                "top": "690",
+                "left": "0",
+                "width": "150",
+                "height": "230",
+                "copies": "1",
+                "x": "1145",
+                "y": "0",
+                "z-index": "1",
+                "title": "",
+                "features": {
+                    "range": "",
+                    "dice": "",
+                    "precision": "",
+                    "damage": "",
+                    "use": {
+                        "zombies": {
+                            "status": false,
+                            "noise": false
+                        },
+                        "doors": {
+                            "status": false,
+                            "noise": false
+                        }
+                    },
+                    "text": [
+                        "Permite relançar",
+                        "os dados em um combate",
+                        "uma vez por turno usando",
+                        "Pistola, Gêmeas do mal",
+                        "ou Rifle."
+                    ],
+                    "eviltwin": false
+                }
+            },
+            "Pe_de_Cabra": {
+                "id": "pedecabra",
+                "top": "690",
+                "left": "150",
+                "width": "150",
+                "height": "230",
+                "copies": "1",
+                "x": "1145",
+                "y": "0",
+                "z-index": "1",
+                "title": "",
+                "features": {
+                    "range": "0",
+                    "dice": "1",
+                    "precision": "4+",
+                    "damage": "1",
+                    "use": {
+                        "zombies": {
+                            "status": true,
+                            "noise": false
+                        },
+                        "doors": {
+                            "status": true,
+                            "noise": false
+                        }
+                    },
+                    "text": [
+                        ""
+                    ],
+                    "eviltwin": false
+                }
+            },
+            "Pistola": {
+                "id": "pistola",
+                "top": "690",
+                "left": "300",
+                "width": "150",
+                "height": "230",
+                "copies": "1",
+                "x": "1145",
+                "y": "0",
+                "z-index": "1",
+                "title": "",
+                "features": {
+                    "range": "0-1",
+                    "dice": "1",
+                    "precision": "4+",
+                    "damage": "1",
+                    "use": {
+                        "zombies": {
+                            "status": true,
+                            "noise": true
+                        },
+                        "doors": {
+                            "status": false,
+                            "noise": false
+                        }
+                    },
+                    "text": [
+                        ""
+                    ],
+                    "eviltwin": true
+                }
+            },
+            "Rifle": {
+                "id": "rifle",
+                "top": "690",
+                "left": "450",
+                "width": "150",
+                "height": "230",
+                "copies": "1",
+                "x": "1145",
+                "y": "0",
+                "z-index": "1",
+                "title": "",
+                "features": {
+                    "range": "1-3",
+                    "dice": "1",
+                    "precision": "3+",
+                    "damage": "1",
+                    "use": {
+                        "zombies": {
+                            "status": true,
+                            "noise": true
+                        },
+                        "doors": {
+                            "status": false,
+                            "noise": false
+                        }
+                    },
+                    "text": [
+                        ""
+                    ],
+                    "eviltwin": false
+                }
+            },
+            "Saco_de_Arroz": {
+                "id": "sacodearroz",
+                "top": "690",
+                "left": "600",
+                "width": "150",
+                "height": "230",
+                "copies": "1",
+                "x": "1145",
+                "y": "0",
+                "z-index": "1",
+                "title": "",
+                "features": {
+                    "range": "",
+                    "dice": "",
+                    "precision": "",
+                    "damage": "",
+                    "use": {
+                        "zombies": {
+                            "status": false,
+                            "noise": false
+                        },
+                        "doors": {
+                            "status": false,
+                            "noise": false
+                        }
+                    },
+                    "text": [
+                        ""
+                    ],
+                    "eviltwin": false
+                }
+            },
+            "Uzi": {
+                "id": "uzi",
+                "top": "690",
+                "left": "750",
+                "width": "150",
+                "height": "230",
+                "copies": "1",
+                "x": "1145",
+                "y": "0",
+                "z-index": "1",
+                "title": "",
+                "features": {
+                    "range": "0-1",
+                    "dice": "3",
+                    "precision": "5+",
+                    "damage": "1",
+                    "use": {
+                        "zombies": {
+                            "status": true,
+                            "noise": true
+                        },
+                        "doors": {
+                            "status": false,
+                            "noise": false
+                        }
+                    },
+                    "text": [
+                        ""
+                    ],
+                    "eviltwin": true
+                }
+            },
+            "Machescopeta": {
+                "id": "machescopeta",
+                "top": "0",
+                "left": "900",
+                "width": "150",
+                "height": "230",
+                "copies": "1",
+                "x": "1145",
+                "y": "0",
+                "z-index": "1",
+                "title": "",
+                "features": {
+                    "range": {
+                        "match": "0",
+                        "gun": "0-1"
+                    },
+                    "dice": {
+                        "match": "1",
+                        "gun": "2"
+                    },
+                    "precision": "3+",
+                    "damage": "2",
+                    "use": {
+                        "zombies": {
+                            "status": {
+                                "match": true,
+                                "gun": true
+                            },
+                            "noise": {
+                                "match": false,
+                                "gun": true
+                            }
+                        },
+                        "doors": {
+                            "status": false,
+                            "noise": false
+                        }
+                    },
+                    "text": [
+                        "1 ação para recarregar.",
+                        "Livre na fase final."
+                    ],
+                    "eviltwin": false
+                }
+            }
+        }
+    }
+}

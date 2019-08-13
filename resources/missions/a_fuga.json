@@ -1,0 +1,68 @@
+{
+    "mode": "Difícil",
+    "survivors": "6+",
+    "time": "150min",
+    "description": [
+        "Nas primeiras horas de infecção, todo mundo se amontoava nos supermercados em busca de comida. Um grande erro, afinal,",
+        "lugares públicos estavam cheios de zumbis. Encontramos uma loja de conveniência no subúrbio. Até agora, todos que entraram",
+        "lá só contribuíram para aumentar o número de infectados. Hoje é a nossa vez. Acabamos com nossos últimos recursos, não temos",
+        "outras opções... mas temos experiência e trabalho em equipe. Eu só sei que eu preciso de uma arma maior... e papel higiênico,",
+        "pode ser de folha simples, nem ligo mais."
+    ],
+    "tiles": {
+        "0": {
+            "tile": "4C",
+            "x": 0,
+            "y": 230,
+            "rotate": 2
+        },
+        "1": {
+            "tile": "2C",
+            "x": 550,
+            "y": 230,
+            "rotate": 1
+        },
+        "2": {
+            "tile": "7B",
+            "x": 1100,
+            "y": 230,
+            "rotate": 1
+        },
+        "3": {
+            "tile": "3C",
+            "x": 0,
+            "y": 780,
+            "rotate": 0
+        },
+        "4": {
+            "tile": "1B",
+            "x": 550,
+            "y": 780,
+            "rotate": 2
+        },
+        "5": {
+            "tile": "5D",
+            "x": 1100,
+            "y": 780,
+            "rotate": 1
+        }
+    },
+    "items": "",
+    "objective": [
+        "Complete as seguintes tarefas, nesta ordem:",
+        "1 – Colocar até seis cartas de suprimentos abaixo das fichas de carro (veja as regras especiais). As cartas de suprimento podem",
+        "ser cartas de Comida Enlatada, Arroz ou Água.",
+        "2 – Entre em quantos carros forem precisos com todos os Sobreviventes ainda em jogo.",
+        "3 – Alcance a Zona de Saída com os Sobreviventes dentro dos carros. Um carro que chega nesta Zona sai do tabuleiro com seus ocupantes",
+        "e todo suprimento que possui. Separe estas cartas que deixaram o tabuleiro com os carros. Você vence o jogo se existirem seis ou mais."
+    ],
+    "special_rules": [
+        "- Não é permitido Procurar na Área Inicial dos Sobreviventes.",
+        "- Colocar suprimentos em um carro: Ao custo de uma Ação, um Sobrevivente pode colocar (ou pegar) uma carta de Comida Enlatada, Arroz ou",
+        "Água abaixo de uma ficha de carro na Zona que ele ocupa.",
+        "- É permitido dirigir os carros.",
+        "- Só é permitido Procurar no Tunadão uma vez. Ele contém ou as Gêmeas do Mal, ou a Semi-automática (pegue aleatoriamente)",
+        "- É permitido Procurar o carro da polícia mais de uma vez. Pegue cartas até que encontre uma arma. Descarte as outras cartas. A carta Aaahh!",
+        "funciona normalmente e faz surgir um Lerdo, interrompendo a Procura."
+    ]
+}

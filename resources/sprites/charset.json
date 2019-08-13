@@ -1,0 +1,195 @@
+{
+    "image": {
+        "id": "charset",
+        "src": "resources/sprites/charset.png",
+        "width": "820",
+        "height": "116",
+        "mime": "image/png"
+    },
+    "logo": {
+        "id": "logo",
+        "top": "0",
+        "left": "670",
+        "width": "150",
+        "height": "73",
+        "copies": "1",
+        "x": "10",
+        "y": "60",
+        "position": "absolute",
+        "container": "aLogo",
+        "z-index": "0"
+    },
+    "frames": {
+        "general": {
+            "position": "absolute",
+            "container": "oControls",
+            "drag": true,
+            "rotate": false,
+            "flip": false,
+            "destroy": true,
+            "draw": false
+        },
+        "survivors": {
+            "Amy": {
+                "id": "amy",
+                "top": "0",
+                "left": "0",
+                "width": "66",
+                "height": "93",
+                "copies": "1",
+                "x": "170",
+                "y": "10",
+                "z-index": "99",
+                "title": "Amy"
+            },
+            "Doug": {
+                "id": "doug",
+                "top": "0",
+                "left": "66",
+                "width": "66",
+                "height": "93",
+                "copies": "1",
+                "x": "246",
+                "y": "10",
+                "z-index": "99",
+                "title": "Doug"
+            },
+            "Josh": {
+                "id": "josh",
+                "top": "0",
+                "left": "132",
+                "width": "66",
+                "height": "93",
+                "copies": "1",
+                "x": "322",
+                "y": "10",
+                "z-index": "99",
+                "title": "Josh"
+            },
+            "Ned": {
+                "id": "ned",
+                "top": "0",
+                "left": "198",
+                "width": "66",
+                "height": "93",
+                "copies": "1",
+                "x": "170",
+                "y": "130",
+                "z-index": "99",
+                "title": "Ned"
+            },
+            "Phil": {
+                "id": "phil",
+                "top": "0",
+                "left": "264",
+                "width": "66",
+                "height": "93",
+                "copies": "1",
+                "x": "246",
+                "y": "130",
+                "z-index": "99",
+                "title": "Phil"
+            },
+            "Wanda": {
+                "id": "wanda",
+                "top": "0",
+                "left": "330",
+                "width": "66",
+                "height": "93",
+                "copies": "1",
+                "x": "322",
+                "y": "130",
+                "z-index": "99",
+                "title": "Wanda"
+            }
+        },
+        "zombies": {
+            "Walker": {
+                "id": "walker",
+                "top": "0",
+                "left": "396",
+                "width": "40",
+                "height": "88",
+                "copies": "40",
+                "x": "410",
+                "y": "10",
+                "z-index": "98",
+                "title": "Lerdo"
+            },
+            "Runner": {
+                "id": "runner",
+                "top": "0",
+                "left": "436",
+                "width": "50",
+                "height": "89",
+                "copies": "16",
+                "x": "490",
+                "y": "10",
+                "z-index": "98",
+                "title": "Corredor"
+            },
+            "Fatty": {
+                "id": "fatty",
+                "top": "0",
+                "left": "486",
+                "width": "57",
+                "height": "86",
+                "copies": "8",
+                "x": "410",
+                "y": "130",
+                "z-index": "98",
+                "title": "Balofo"
+            },
+            "Abomination": {
+                "id": "abomination",
+                "top": "0",
+                "left": "543",
+                "width": "87",
+                "height": "116",
+                "copies": "1",
+                "x": "470",
+                "y": "103",
+                "z-index": "98",
+                "title": "ABOMINAÇÃO"
+            }
+        },
+        "misc": {
+            "Police_Car": {
+                "id": "policecar",
+                "top": "0",
+                "left": "995",
+                "width": "175",
+                "height": "88",
+                "copies": "2",
+                "x": "580",
+                "y": "10",
+                "z-index": "96",
+                "title": "Viatura da polícia"
+            },
+            "Pimp_Car": {
+                "id": "pimpcar",
+                "top": "0",
+                "left": "820",
+                "width": "175",
+                "height": "88",
+                "copies": "2",
+                "x": "580",
+                "y": "130",
+                "z-index": "96",
+                "title": "Tunadão"
+            },
+            "Noise": {
+                "id": "noise",
+                "top": "0",
+                "left": "630",
+                "width": "40",
+                "height": "36",
+                "copies": "18",
+                "x": "770",
+                "y": "190",
+                "z-index": "97",
+                "title": ""
+            }
+        }
+    }
+}

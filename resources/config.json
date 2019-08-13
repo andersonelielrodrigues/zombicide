@@ -1,0 +1,9 @@
+{
+    "charset": "resources/sprites/charset.json",
+    "tileset": "resources/sprites/tileset.json",
+    "tokenset": "resources/sprites/tokenset.json",
+    "itemset": "resources/sprites/itemset.json",
+    "spawnset": "resources/sprites/spawnset.json",
+    "itemdeck": 62,
+    "spawndeck": 54
+}

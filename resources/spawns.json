@@ -1,0 +1,220 @@
+{
+    "spawns": {
+        "1": {
+            "id": 1,
+            "spawn": "Spawn1"
+        },
+        "2": {
+            "id": 2,
+            "spawn": "Spawn2"
+        },
+        "3": {
+            "id": 3,
+            "spawn": "Spawn3"
+        },
+        "4": {
+            "id": 4,
+            "spawn": "Spawn4"
+        },
+        "5": {
+            "id": 5,
+            "spawn": "Spawn5"
+        },
+        "6": {
+            "id": 6,
+            "spawn": "Spawn6"
+        },
+        "7": {
+            "id": 7,
+            "spawn": "Spawn7"
+        },
+        "8": {
+            "id": 8,
+            "spawn": "Spawn8"
+        },
+        "9": {
+            "id": 9,
+            "spawn": "Spawn9"
+        },
+        "10": {
+            "id": 10,
+            "spawn": "Spawn10"
+        },
+        "11": {
+            "id": 11,
+            "spawn": "Spawn11"
+        },
+        "12": {
+            "id": 12,
+            "spawn": "Spawn12"
+        },
+        "13": {
+            "id": 13,
+            "spawn": "Spawn13"
+        },
+        "14": {
+            "id": 14,
+            "spawn": "Spawn14"
+        },
+        "15": {
+            "id": 15,
+            "spawn": "Spawn15"
+        },
+        "16": {
+            "id": 16,
+            "spawn": "Spawn16"
+        },
+        "17": {
+            "id": 17,
+            "spawn": "Spawn17"
+        },
+        "18": {
+            "id": 18,
+            "spawn": "Spawn18"
+        },
+        "19": {
+            "id": 19,
+            "spawn": "Spawn19"
+        },
+        "20": {
+            "id": 20,
+            "spawn": "Spawn20"
+        },
+        "21": {
+            "id": 21,
+            "spawn": "Spawn21"
+        },
+        "22": {
+            "id": 22,
+            "spawn": "Spawn22"
+        },
+        "23": {
+            "id": 23,
+            "spawn": "Spawn23"
+        },
+        "24": {
+            "id": 24,
+            "spawn": "Spawn24"
+        },
+        "25": {
+            "id": 25,
+            "spawn": "Spawn25"
+        },
+        "26": {
+            "id": 26,
+            "spawn": "Spawn26"
+        },
+        "27": {
+            "id": 27,
+            "spawn": "Spawn27"
+        },
+        "28": {
+            "id": 28,
+            "spawn": "Spawn28"
+        },
+        "29": {
+            "id": 29,
+            "spawn": "Spawn29"
+        },
+        "30": {
+            "id": 30,
+            "spawn": "Spawn30"
+        },
+        "31": {
+            "id": 31,
+            "spawn": "Spawn31"
+        },
+        "32": {
+            "id": 32,
+            "spawn": "Spawn3"
+        },
+        "33": {
+            "id": 33,
+            "spawn": "Spawn33"
+        },
+        "34": {
+            "id": 34,
+            "spawn": "Spawn34"
+        },
+        "35": {
+            "id": 35,
+            "spawn": "Spawn35"
+        },
+        "36": {
+            "id": 36,
+            "spawn": "Spawn36"
+        },
+        "37": {
+            "id": 37,
+            "spawn": "Spawn37"
+        },
+        "38": {
+            "id": 38,
+            "spawn": "Spawn38"
+        },
+        "39": {
+            "id": 39,
+            "spawn": "Spawn39"
+        },
+        "40": {
+            "id": 40,
+            "spawn": "Spawn40"
+        },
+        "41": {
+            "id": 41,
+            "spawn": "Spawn41"
+        },
+        "42": {
+            "id": 42,
+            "spawn": "Spawn42"
+        },
+        "43": {
+            "id": 43,
+            "spawn": "Spawn43"
+        },
+        "44": {
+            "id": 44,
+            "spawn": "Spawn44"
+        },
+        "45": {
+            "id": 45,
+            "spawn": "Spawn45"
+        },
+        "46": {
+            "id": 46,
+            "spawn": "Spawn46"
+        },
+        "47": {
+            "id": 47,
+            "spawn": "Spawn47"
+        },
+        "48": {
+            "id": 48,
+            "spawn": "Spawn48"
+        },
+        "49": {
+            "id": 49,
+            "spawn": "Spawn49"
+        },
+        "50": {
+            "id": 50,
+            "spawn": "Spawn50"
+        },
+        "51": {
+            "id": 51,
+            "spawn": "Spawn51"
+        },
+        "52": {
+            "id": 52,
+            "spawn": "Spawn52"
+        },
+        "53": {
+            "id": 53,
+            "spawn": "Spawn53"
+        },
+        "54": {
+            "id": 54,
+            "spawn": "Spawn54"
+        }
+    }
+}

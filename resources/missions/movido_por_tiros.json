@@ -1,0 +1,73 @@
+{
+    "mode": "Médio",
+    "survivors": "4+",
+    "time": "90min",
+    "description": [
+        "Nosso novo abrigo não é protegido o suficiente. Os zumbis se aproximam cada vez mais. Nós não podemos dormir e o desespero",
+        "já atingiu alguns de nós. Deve existir um ninho por aqui, provavelmente na área mais comercial da cidade, próximo à entrada",
+        "do metrô. Até que esse foco seja neutralizado, vamos continuar sofrendo ataques. Eu bem que podia usar um novo par de sapatos."
+    ],
+    "tiles": {
+        "0": {
+            "tile": "3C",
+            "x": 0,
+            "y": 230,
+            "rotate": 0
+        },
+        "1": {
+            "tile": "4D",
+            "x": 550,
+            "y": 230,
+            "rotate": 0
+        },
+        "2": {
+            "tile": "2C",
+            "x": 1100,
+            "y": 230,
+            "rotate": 2
+        },
+        "3": {
+            "tile": "5F",
+            "x": 1650,
+            "y": 230,
+            "rotate": 3
+        },
+        "4": {
+            "tile": "4E",
+            "x": 0,
+            "y": 780,
+            "rotate": 2
+        },
+        "5": {
+            "tile": "4B",
+            "x": 550,
+            "y": 780,
+            "rotate": 2
+        },
+        "6": {
+            "tile": "2B",
+            "x": 1100,
+            "y": 780,
+            "rotate": 1
+        },
+        "7": {
+            "tile": "5C",
+            "x": 1650,
+            "y": 780,
+            "rotate": 1
+        }
+    },
+    "items": "",
+    "objective": [
+        "- Pegar todas as Fichas de Objetivo.",
+        "- Após completar o objetivo acima, todos os Sobreviventes restantes devem chegar à mesma Zona de Entrada e garantir que não existem",
+        "Zumbis por lá."
+    ],
+    "special_rules": [
+        "- Cada Ficha de Objetivo rende 5 pontos de experiência ao Sobrevivente que a pegou.",
+        "- É permitido dirigir os carros.",
+        "- Só é permitido Procurar no Tunadão uma vez. Ele contém ou as Gêmeas do Mal, ou a Semi-automática (pegue aleatoriamente).",
+        "- É permitido Procurar o carro da polícia mais de uma vez. Pegue cartas até que encontre uma arma. Descarte as outras cartas.",
+        "A carta Aaahh! funciona normalmente e faz surgir um Lerdo, interrompendo a Procura."
+    ]
+}

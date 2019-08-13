@@ -1,0 +1,73 @@
+{
+    "mode": "Médio",
+    "survivors": "4+",
+    "time": "60min",
+    "description": [
+        "Aqueles que sobreviveram estão enlouquecendo. Os pequenos focos de resistência vão sumindo um após o outro, e nosso rádio CB,",
+        "que antes fervilhava com mensagens está em silêncio. Precisamos sair. O número de zumbis aumenta a cada dia, e nossos estoques estão",
+        "se esgotando. Eu mataria por uma pasta de dente."
+    ],
+    "tiles": {
+        "0": {
+            "tile": "4B",
+            "x": 0,
+            "y": 230,
+            "rotate": 0
+        },
+        "1": {
+            "tile": "4E",
+            "x": 550,
+            "y": 230,
+            "rotate": 0
+        },
+        "2": {
+            "tile": "1B",
+            "x": 1100,
+            "y": 230,
+            "rotate": 2
+        },
+        "3": {
+            "tile": "7B",
+            "x": 0,
+            "y": 780,
+            "rotate": 1
+        },
+        "4": {
+            "tile": "5D",
+            "x": 550,
+            "y": 780,
+            "rotate": 0
+        },
+        "5": {
+            "tile": "6B",
+            "x": 1100,
+            "y": 780,
+            "rotate": 3
+        },
+        "6": {
+            "tile": "3C",
+            "x": 0,
+            "y": 1330,
+            "rotate": 2
+        },
+        "7": {
+            "tile": "4C",
+            "x": 550,
+            "y": 1330,
+            "rotate": 2
+        },
+        "8": {
+            "tile": "2C",
+            "x": 1100,
+            "y": 1330,
+            "rotate": 1
+        }
+    },
+    "items": "",
+    "objective": [
+        "- Alcançar a Zona de Saída mostrada no mapa com todos os Sobreviventes."
+    ],
+    "special_rules": [
+        "- A ficha de Objetivo representa uma caixa de primeiros socorros. O Sobrevivente que a pegar descarta imediatamente uma carta de Ferimento."
+    ]
+}

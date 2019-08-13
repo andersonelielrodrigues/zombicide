@@ -1,0 +1,252 @@
+{
+    "items": {
+        "1": {
+            "id": 1,
+            "item": "Aaahh"
+        },
+        "2": {
+            "id": 2,
+            "item": "Aaahh"
+        },
+        "3": {
+            "id": 3,
+            "item": "Aaahh"
+        },
+        "4": {
+            "id": 4,
+            "item": "Aaahh"
+        },
+        "5": {
+            "id": 5,
+            "item": "Agua"
+        },
+        "6": {
+            "id": 6,
+            "item": "Agua"
+        },
+        "7": {
+            "id": 7,
+            "item": "Agua"
+        },
+        "8": {
+            "id": 8,
+            "item": "Bastao"
+        },
+        "9": {
+            "id": 9,
+            "item": "Bastao"
+        },
+        "10": {
+            "id": 10,
+            "item": "Cano_Serrado"
+        },
+        "11": {
+            "id": 11,
+            "item": "Cano_Serrado"
+        },
+        "12": {
+            "id": 12,
+            "item": "Cano_Serrado"
+        },
+        "13": {
+            "id": 13,
+            "item": "Cano_Serrado"
+        },
+        "14": {
+            "id": 14,
+            "item": "Comida_Enlatada"
+        },
+        "15": {
+            "id": 15,
+            "item": "Comida_Enlatada"
+        },
+        "16": {
+            "id": 16,
+            "item": "Comida_Enlatada"
+        },
+        "17": {
+            "id": 17,
+            "item": "Escopeta"
+        },
+        "18": {
+            "id": 18,
+            "item": "Escopeta"
+        },
+        "19": {
+            "id": 19,
+            "item": "Frigideira"
+        },
+        "20": {
+            "id": 20,
+            "item": "Frigideira"
+        },
+        "21": {
+            "id": 21,
+            "item": "Frigideira"
+        },
+        "22": {
+            "id": 22,
+            "item": "Garrafa"
+        },
+        "23": {
+            "id": 23,
+            "item": "Garrafa"
+        },
+        "24": {
+            "id": 24,
+            "item": "Gasolina"
+        },
+        "25": {
+            "id": 25,
+            "item": "Gasolina"
+        },
+        "26": {
+            "id": 26,
+            "item": "Katana"
+        },
+        "27": {
+            "id": 27,
+            "item": "Katana"
+        },
+        "28": {
+            "id": 28,
+            "item": "Lanterna"
+        },
+        "29": {
+            "id": 29,
+            "item": "Lanterna"
+        },
+        "30": {
+            "id": 30,
+            "item": "Machado"
+        },
+        "31": {
+            "id": 31,
+            "item": "Machado"
+        },
+        "32": {
+            "id": 32,
+            "item": "Machete"
+        },
+        "33": {
+            "id": 33,
+            "item": "Machete"
+        },
+        "34": {
+            "id": 34,
+            "item": "Machete"
+        },
+        "35": {
+            "id": 35,
+            "item": "Machete"
+        },
+        "36": {
+            "id": 36,
+            "item": "Mascara"
+        },
+        "37": {
+            "id": 37,
+            "item": "Mira"
+        },
+        "38": {
+            "id": 38,
+            "item": "Mira"
+        },
+        "39": {
+            "id": 39,
+            "item": "Molotov"
+        },
+        "40": {
+            "id": 40,
+            "item": "Molotov"
+        },
+        "41": {
+            "id": 41,
+            "item": "Motosserra"
+        },
+        "42": {
+            "id": 42,
+            "item": "Motosserra"
+        },
+        "43": {
+            "id": 43,
+            "item": "Muita_Municao_Escopeta"
+        },
+        "44": {
+            "id": 44,
+            "item": "Muita_Municao_Escopeta"
+        },
+        "45": {
+            "id": 45,
+            "item": "Muita_Municao_Escopeta"
+        },
+        "46": {
+            "id": 46,
+            "item": "Muita_Municao_Escopeta"
+        },
+        "47": {
+            "id": 47,
+            "item": "Muita_Municao_Pistola"
+        },
+        "48": {
+            "id": 48,
+            "item": "Muita_Municao_Pistola"
+        },
+        "49": {
+            "id": 49,
+            "item": "Muita_Municao_Pistola"
+        },
+        "50": {
+            "id": 50,
+            "item": "Pe_de_Cabra"
+        },
+        "51": {
+            "id": 51,
+            "item": "Pe_de_Cabra"
+        },
+        "52": {
+            "id": 52,
+            "item": "Pistola"
+        },
+        "53": {
+            "id": 53,
+            "item": "Pistola"
+        },
+        "54": {
+            "id": 54,
+            "item": "Pistola"
+        },
+        "55": {
+            "id": 55,
+            "item": "Rifle"
+        },
+        "56": {
+            "id": 56,
+            "item": "Rifle"
+        },
+        "57": {
+            "id": 57,
+            "item": "Saco_de_Arroz"
+        },
+        "58": {
+            "id": 58,
+            "item": "Saco_de_Arroz"
+        },
+        "59": {
+            "id": 59,
+            "item": "Saco_de_Arroz"
+        },
+        "60": {
+            "id": 60,
+            "item": "Uzi"
+        },
+        "61": {
+            "id": 61,
+            "item": "Uzi"
+        },
+        "62": {
+            "id": 62,
+            "item": "Machescopeta"
+        }
+    }
+}

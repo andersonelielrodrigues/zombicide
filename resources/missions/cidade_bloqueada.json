@@ -1,0 +1,208 @@
+{
+    "mode": "Difícil",
+    "survivors": "4+",
+    "time": "150min",
+    "description": [
+        "Nosso abrigo está a salvo, por enquanto. Porém nosso estoque de comida não vai durar muito. Nós decidimos nos armar e explorar",
+        "as casas da redondeza. Não podemos voltar de mãos vazias."
+    ],
+    "tiles": {
+        "0": {
+            "tile": "2C",
+            "x": 0,
+            "y": 230,
+            "rotate": 2
+        },
+        "1": {
+            "tile": "1C",
+            "x": 550,
+            "y": 230,
+            "rotate": 3
+        },
+        "2": {
+            "tile": "4B",
+            "x": 1100,
+            "y": 230,
+            "rotate": 0
+        },
+        "3": {
+            "tile": "5C",
+            "x": 0,
+            "y": 780,
+            "rotate": 2
+        },
+        "4": {
+            "tile": "7B",
+            "x": 550,
+            "y": 780,
+            "rotate": 1
+        },
+        "5": {
+            "tile": "5D",
+            "x": 1100,
+            "y": 780,
+            "rotate": 0
+        },
+        "6": {
+            "tile": "6B",
+            "x": 0,
+            "y": 1330,
+            "rotate": 1
+        },
+        "7": {
+            "tile": "5E",
+            "x": 550,
+            "y": 1330,
+            "rotate": 2
+        },
+        "8": {
+            "tile": "1B",
+            "x": 1100,
+            "y": 1330,
+            "rotate": 0
+        }
+    },
+    "items": {
+        "0": {
+            "item": "objective_8",
+            "left": 63,
+            "top": 280,
+            "rotate": 0
+        },
+        "1": {
+            "item": "spawn_5",
+            "left": 498,
+            "top": 232,
+            "rotate": 0
+        },
+        "2": {
+            "item": "objective_7",
+            "left": 973,
+            "top": 299,
+            "rotate": 0
+        },
+        "3": {
+            "item": "objective_6",
+            "left": 1461,
+            "top": 330,
+            "rotate": 0
+        },
+        "4": {
+            "item": "door_10",
+            "left": 675,
+            "top": 484,
+            "rotate": 0
+        },
+        "5": {
+            "item": "door_9",
+            "left": 375,
+            "top": 518,
+            "rotate": 2
+        },
+        "6": {
+            "item": "door_8",
+            "left": 1358,
+            "top": 605,
+            "rotate": 3
+        },
+        "7": {
+            "item": "spawn_4",
+            "left": 1568,
+            "top": 755,
+            "rotate": 1
+        },
+        "8": {
+            "item": "door_7",
+            "left": 853,
+            "top": 902,
+            "rotate": 1
+        },
+        "9": {
+            "item": "door_6",
+            "left": 1345,
+            "top": 904,
+            "rotate": 1
+        },
+        "10": {
+            "item": "objective_5",
+            "left": 256,
+            "top": 1026,
+            "rotate": 0
+        },
+        "11": {
+            "item": "entry_1",
+            "left": 801,
+            "top": 1034,
+            "rotate": 0
+        },
+        "12": {
+            "item": "door_5",
+            "left": 196,
+            "top": 1150,
+            "rotate": 3
+        },
+        "13": {
+            "item": "door_4",
+            "left": 742,
+            "top": 1156,
+            "rotate": 3
+        },
+        "14": {
+            "item": "spawn_3",
+            "left": -23,
+            "top": 1304,
+            "rotate": 3
+        },
+        "15": {
+            "item": "door_3",
+            "left": 315,
+            "top": 1452,
+            "rotate": 1
+        },
+        "16": {
+            "item": "objective_4",
+            "left": 153,
+            "top": 1581,
+            "rotate": 0
+        },
+        "17": {
+            "item": "door_2",
+            "left": 924,
+            "top": 1584,
+            "rotate": 2
+        },
+        "18": {
+            "item": "door_1",
+            "left": 1225,
+            "top": 1579,
+            "rotate": 0
+        },
+        "19": {
+            "item": "exit_1",
+            "left": -18,
+            "top": 1804,
+            "rotate": 3
+        },
+        "20": {
+            "item": "spawn_2",
+            "left": 1049,
+            "top": 1826,
+            "rotate": 0
+        },
+        "21": {
+            "item": "objective_3",
+            "left": 1530,
+            "top": 1760,
+            "rotate": 0
+        }
+    },
+    "objective": [
+        "- Pegar todas as Fichas de Objetivo.",
+        "- Encontrar ao menos uma carta de Comida Enlatada, uma carta de Arroz, e pelos menos uma carta de Água.",
+        "- Uma vez que você atingiu os objetivos anteriores, corra para a Saída mostrada no mapa, com ao menos 1 Sobrevivente. Você vence",
+        "se você tiver ao menos 1 Comida Enlatada, um Arroz e uma carta de Água."
+    ],
+    "special_rules": [
+        "- Cada Ficha de Objetivo rende 5 pontos de experiência ao Sobrevivente que a pegou."
+    ]
+}

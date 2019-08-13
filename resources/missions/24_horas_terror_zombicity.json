@@ -1,0 +1,78 @@
+{
+    "mode": "Médio",
+    "survivors": "4+",
+    "time": "90min",
+    "description": [
+        "Avistamos uma grande e confortável casa. As construções não parecem muito danificadas e alguns carros ainda parecem funcionar.",
+        "O estoque desta casa deve estar cheio, afinal, parece que os saqueadores não conseguiram resistir por muito tempo aqui. Nós claramente",
+        "entendemos o porque: esta área está infestada de zumbis. Os moradores desta região claramente não puderam fazer nada. Antes de explorar,",
+        "é bom limparmos a área. Agora, eu sonho com um chiclete."
+    ],
+    "tiles": {
+        "0": {
+            "tile": "2C",
+            "x": 0,
+            "y": 230,
+            "rotate": 3
+        },
+        "1": {
+            "tile": "4D",
+            "x": 550,
+            "y": 230,
+            "rotate": 0
+        },
+        "2": {
+            "tile": "4B",
+            "x": 1100,
+            "y": 230,
+            "rotate": 0
+        },
+        "3": {
+            "tile": "5C",
+            "x": 0,
+            "y": 780,
+            "rotate": 0
+        },
+        "4": {
+            "tile": "6B",
+            "x": 550,
+            "y": 780,
+            "rotate": 3
+        },
+        "5": {
+            "tile": "5F",
+            "x": 1100,
+            "y": 780,
+            "rotate": 2
+        },
+        "6": {
+            "tile": "1B",
+            "x": 0,
+            "y": 1330,
+            "rotate": 0
+        },
+        "7": {
+            "tile": "3C",
+            "x": 550,
+            "y": 1330,
+            "rotate": 2
+        },
+        "8": {
+            "tile": "4E",
+            "x": 1100,
+            "y": 1330,
+            "rotate": 2
+        }
+    },
+    "items": "",
+    "objective": [
+        "- Alcançar o Nível de Perigo Vermelho com ao menos 1 Sobrevivente."
+    ],
+    "special_rules": [
+        "- Cada Ficha de Objetivo rende 5 pontos de experiência ao Sobrevivente que a pegou.",
+        "- É permitido dirigir os carros.",
+        "- Só é permitido Procurar no Tunadão uma vez. Ele contém ou as Gêmeas do Mal, ou a Semi-automática (pegue aleatoriamente).",
+        "- É permitido Procurar o carro da polícia mais de uma vez. A carta Aaahh! funciona normalmente e faz surgir um Lerdo interrompendo",
+        "a Procura."
+    ]
+}

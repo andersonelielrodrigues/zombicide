@@ -1,0 +1,44 @@
+{
+    "mode": "Difícil",
+    "survivors": "4+",
+    "time": "120min",
+    "description": [
+        "De volta ao dia-a-dia. Estamos explorando os arreadores em áreas cada vez maiores ao redor de nosso esconderijo. Muitas semanas",
+        "já passaram desde o início da infecção e a população de zumbis parece estar em seu ápice. O que parecia uma operação de rotina se",
+        "tornou um angustiante teste, onde o menor dos erros pode ser fatal. Ainda bem que parei de fumar, com tanto estresse por aí, eu estaria",
+        "morrendo de abstinência."
+    ],
+    "tiles": {
+        "0": {
+            "tile": "7B",
+            "x": 0,
+            "y": 230,
+            "rotate": 0
+        },
+        "1": {
+            "tile": "2B",
+            "x": 550,
+            "y": 230,
+            "rotate": 3
+        },
+        "2": {
+            "tile": "5B",
+            "x": 0,
+            "y": 780,
+            "rotate": 1
+        },
+        "3": {
+            "tile": "5C",
+            "x": 550,
+            "y": 780,
+            "rotate": 0
+        }
+    },
+    "items": "",
+    "objective": [
+        "- Pegar todas as Fichas de Objetivo."
+    ],
+    "special_rules": [
+        "- Cada Ficha de Objetivo rende 5 pontos de experiência ao Sobrevivente que a pegou."
+    ]
+}
