@@ -3,9 +3,9 @@
     "survivors": "Especial",
     "time": "90min",
     "description": [
-        "Encontramos um abrigo, e pelo jeito, temos comida suficiente para alimentar um exército pequeno. Também temos um rádio que ainda",
-        "funciona, mas um dia, a pilha vai acabar. Foi graças a ele que encontramos outro grupo de sobreviventes no subúrbio. Eles estão sem",
-        "defesa e cercados por zumbis. Não tem nenhum motivo para isso parecer uma armadilha. Temos que nos unir, fazer novos amigos.",
+        "Encontramos um abrigo, e pelo jeito, temos comida suficiente para alimentar um exército pequeno. Também temos um rádio que ainda ",
+        "funciona, mas um dia, a pilha vai acabar. Foi graças a ele que encontramos outro grupo de sobreviventes no subúrbio. Eles estão sem" ,
+        "defesa e cercados por zumbis. Não tem nenhum motivo para isso parecer uma armadilha. Temos que nos unir, fazer novos amigos. ",
         "Encontrei uma caixa de fio dental hoje, parecia que era Natal."
     ],
     "tiles": {
@@ -37,20 +37,20 @@
     "items": "",
     "objective": [
         "- Pegar todas as Fichas de Objetivo.",
-        "- Retornar à Zona de início com ao menos quatro Sobreviventes (um jogador), cinco Sobreviventes (dois jogadores) ou seis Sobreviventes",
-        "(três jogadores). Um Sobrevivente localizado na área inicial pode deixar o tabuleiro durante seu turno. Deixe-o de lado juntamente com suas",
+        "- Retornar à Zona de início com ao menos quatro Sobreviventes (um jogador), cinco Sobreviventes (dois jogadores) ou seis Sobreviventes ",
+        "(três jogadores). Um Sobrevivente localizado na área inicial pode deixar o tabuleiro durante seu turno. Deixe-o de lado juntamente com suas ",
         "cartas de Equipamento. Você conquista a vitória logo que conseguir sair com o número determinado de Sobreviventes."
     ],
     "special_rules": [
         "- Cada jogador inicia o jogo com apenas um Sobrevivente.",
-        "- Quatro Fichas de Objetivo estão visíveis no mapa. Três delas são “neutras”, possuem os dois lados idênticos. A quarta possui um lado padrão",
+        "- Quatro Fichas de Objetivo estão visíveis no mapa. Três delas são “neutras”, possuem os dois lados idênticos. A quarta possui um lado padrão ",
         "e o outro lado azul. Coloque as fichas viradas para baixo e de maneira aleatória, para que ninguém saiba onde está a ficha diferente.",
-        "- Cada Ficha de Objetivo rende 5 pontos de experiência ao Sobrevivente que a pegou. Cada vez que uma ficha de Objetivo neutra é pega, o jogador",
-        "que controla menos Sobreviventes recebe, aleatoriamente, um novo Sobrevivente (em caso de empate, o jogador que pegou a ficha decide). O novo",
-        "Sobrevivente é revelado e colocado, sem equipamentos, na Zona onde foi pega a Ficha de Objetivo. A partir de agora, ele joga normalmente. Revelar",
+        "- Cada Ficha de Objetivo rende 5 pontos de experiência ao Sobrevivente que a pegou. Cada vez que uma ficha de Objetivo neutra é pega, o jogador ",
+        "que controla menos Sobreviventes recebe, aleatoriamente, um novo Sobrevivente (em caso de empate, o jogador que pegou a ficha decide). O novo ",
+        "Sobrevivente é revelado e colocado, sem equipamentos, na Zona onde foi pega a Ficha de Objetivo. A partir de agora, ele joga normalmente. Revelar ",
         "a Ficha de Objetivo diferente não adiciona um Sobrevivente, mas ainda rende 5 pontos de experiência.",
         "- Não é permitido dirigir os carros.",
-        "- É permitido Procurar o carro da polícia mais de uma vez. Pegue cartas até que encontre uma arma. Descarte as outras cartas. A carta Aaahh!",
+        "- É permitido Procurar o carro da polícia mais de uma vez. Pegue cartas até que encontre uma arma. Descarte as outras cartas. A carta Aaahh! ",
         "funciona normalmente e faz surgir um Lerdo, interrompendo a Procura.",
         "* OBS: 'Os Fins Justificam... foi desenvolvido para ser jogado de um a três jogadores."
     ]

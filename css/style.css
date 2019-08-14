@@ -10,9 +10,18 @@ body {
     background-image: url("../img/back.jpg");
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 #controls {
     width: 100%;
     height: 28%;
+}
+
+.menu_buttons {
+    color: #e3dec2;
+    text-shadow: 1px 1px 2px #5d1c19;
 }
 
 #table {
@@ -20,6 +29,29 @@ body {
 }
 
 #missions {
-    margin-top: 175px;
+    margin-top: 160px;
     margin-left: 10px;
+}
+
+.mission_title {
+    font-family: LandSpeedRecord;
+    font-size: 32px;
+    color: #fba61c;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.mission_bold {
+    font-weight: bold;
+}
+
+.mission_desc {
+    text-align: justify;
+    text-justify: inter-word;
+    display: block;
+}
+
+.mission_subtitle {
+    font-family: LandSpeedRecord;
+    font-size: 28px;
+    color: #999;
 }

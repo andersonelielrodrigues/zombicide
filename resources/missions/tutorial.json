@@ -3,9 +3,9 @@
     "survivors": "4+",
     "time": "20min",
     "description": [
-        "Estávamos com alguns amigos quando a primeira sirene começou a tocar, seguida rapidamente por diversas outras.",
-        "Em menos de uma hora, tudo mudou. A televisão e o rádio anunciavam péssimas notícias. Decidimos nos abrigar",
-        "na casa de nossos vizinhos que era muito mais segura. Tudo que precisamos fazer é atravessar a rua.",
+        "Estávamos com alguns amigos quando a primeira sirene começou a tocar, seguida rapidamente por diversas outras. ",
+        "Em menos de uma hora, tudo mudou. A televisão e o rádio anunciavam péssimas notícias. Decidimos nos abrigar ",
+        "na casa de nossos vizinhos que era muito mais segura. Tudo que precisamos fazer é atravessar a rua. ",
         "Mas ELES já estavam lá..."
     ],
     "tiles": {
@@ -70,10 +70,10 @@
         "- Pegar a ficha de objetivo."
     ],
     "special_rules": [
-        "- Pilha de cartas de Zumbi reduzida: Utilize somente as cartas numeradas como 1, 2, 3, 4 e 41 para montar a Pilha de",
+        "- Pilha de cartas de Zumbi reduzida: Utilize somente as cartas numeradas como 1, 2, 3, 4 e 41 para montar a Pilha de ",
         "Compras dos Zumbis. Coloque as outras cartas na caixa.",
-        "- Equipamento Inicial Especial: Não entregue os habituais equipamentos iniciais: Pistola, Machado e Pé-de-cabra. Ao",
-        "invés disso, coloque-os no topo da pilha de cartas de Equipamento. Elas serão as três primeiras cartas adquiridas quando",
+        "- Equipamento Inicial Especial: Não entregue os habituais equipamentos iniciais: Pistola, Machado e Pé-de-cabra. Ao ",
+        "invés disso, coloque-os no topo da pilha de cartas de Equipamento. Elas serão as três primeiras cartas adquiridas quando ",
         "os Sobreviventes Procurarem em uma Zona. Cartas de Panela são distribuídas normalmente."
     ]
 }

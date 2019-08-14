@@ -3,7 +3,7 @@
     "survivors": "4+",
     "time": "150min",
     "description": [
-        "Nosso abrigo está a salvo, por enquanto. Porém nosso estoque de comida não vai durar muito. Nós decidimos nos armar e explorar",
+        "Nosso abrigo está a salvo, por enquanto. Porém nosso estoque de comida não vai durar muito. Nós decidimos nos armar e explorar ",
         "as casas da redondeza. Não podemos voltar de mãos vazias."
     ],
     "tiles": {
@@ -199,7 +199,7 @@
     "objective": [
         "- Pegar todas as Fichas de Objetivo.",
         "- Encontrar ao menos uma carta de Comida Enlatada, uma carta de Arroz, e pelos menos uma carta de Água.",
-        "- Uma vez que você atingiu os objetivos anteriores, corra para a Saída mostrada no mapa, com ao menos 1 Sobrevivente. Você vence",
+        "- Uma vez que você atingiu os objetivos anteriores, corra para a Saída mostrada no mapa, com ao menos 1 Sobrevivente. Você vence ",
         "se você tiver ao menos 1 Comida Enlatada, um Arroz e uma carta de Água."
     ],
     "special_rules": [

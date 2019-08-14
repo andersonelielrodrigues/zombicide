@@ -3,8 +3,8 @@
     "survivors": "4+",
     "time": "60min",
     "description": [
-        "Aqueles que sobreviveram estão enlouquecendo. Os pequenos focos de resistência vão sumindo um após o outro, e nosso rádio CB,",
-        "que antes fervilhava com mensagens está em silêncio. Precisamos sair. O número de zumbis aumenta a cada dia, e nossos estoques estão",
+        "Aqueles que sobreviveram estão enlouquecendo. Os pequenos focos de resistência vão sumindo um após o outro, e nosso rádio CB, ",
+        "que antes fervilhava com mensagens está em silêncio. Precisamos sair. O número de zumbis aumenta a cada dia, e nossos estoques estão ",
         "se esgotando. Eu mataria por uma pasta de dente."
     ],
     "tiles": {
@@ -63,7 +63,110 @@
             "rotate": 1
         }
     },
-    "items": "",
+    "items": {
+        "0": {
+            "item": "door_10",
+            "left": 1475,
+            "top": 261,
+            "rotate": 2
+        },
+        "1": {
+            "item": "entry_1",
+            "left": 1575,
+            "top": 242,
+            "rotate": 0
+        },
+        "2": {
+            "item": "door_9",
+            "left": 261,
+            "top": 605,
+            "rotate": 3
+        },
+        "3": {
+            "item": "door_8",
+            "left": 818,
+            "top": 605,
+            "rotate": 3
+        },
+        "4": {
+            "item": "spawn_5",
+            "left": -22,
+            "top": 753,
+            "rotate": 3
+        },
+        "5": {
+            "item": "spawn_4",
+            "left": 1568,
+            "top": 753,
+            "rotate": 1
+        },
+        "6": {
+            "item": "door_7",
+            "left": 321,
+            "top": 904,
+            "rotate": 1
+        },
+        "7": {
+            "item": "door_6",
+            "left": 807,
+            "top": 904,
+            "rotate": 1
+        },
+        "8": {
+            "item": "objective_8",
+            "left": 251,
+            "top": 1033,
+            "rotate": 0
+        },
+        "9": {
+            "item": "door_5",
+            "left": 191,
+            "top": 1154,
+            "rotate": 3
+        },
+        "10": {
+            "item": "door_4",
+            "left": 1296,
+            "top": 1154,
+            "rotate": 3
+        },
+        "11": {
+            "item": "spawn_3",
+            "left": -22,
+            "top": 1304,
+            "rotate": 3
+        },
+        "12": {
+            "item": "spawn_2",
+            "left": 1568,
+            "top": 1304,
+            "rotate": 1
+        },
+        "13": {
+            "item": "door_3",
+            "left": 288,
+            "top": 1455,
+            "rotate": 1
+        },
+        "14": {
+            "item": "door_2",
+            "left": 767,
+            "top": 1455,
+            "rotate": 1
+        },
+        "15": {
+            "item": "door_1",
+            "left": 1476,
+            "top": 1538,
+            "rotate": 2
+        },
+        "16": {
+            "item": "exit_1",
+            "left": 1552,
+            "top": 1825,
+            "rotate": 0
+        }
+    },
     "objective": [
         "- Alcançar a Zona de Saída mostrada no mapa com todos os Sobreviventes."
     ],

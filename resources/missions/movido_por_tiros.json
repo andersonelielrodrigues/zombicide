@@ -3,8 +3,8 @@
     "survivors": "4+",
     "time": "90min",
     "description": [
-        "Nosso novo abrigo não é protegido o suficiente. Os zumbis se aproximam cada vez mais. Nós não podemos dormir e o desespero",
-        "já atingiu alguns de nós. Deve existir um ninho por aqui, provavelmente na área mais comercial da cidade, próximo à entrada",
+        "Nosso novo abrigo não é protegido o suficiente. Os zumbis se aproximam cada vez mais. Nós não podemos dormir e o desespero ",
+        "já atingiu alguns de nós. Deve existir um ninho por aqui, provavelmente na área mais comercial da cidade, próximo à entrada ",
         "do metrô. Até que esse foco seja neutralizado, vamos continuar sofrendo ataques. Eu bem que podia usar um novo par de sapatos."
     ],
     "tiles": {
@@ -60,14 +60,14 @@
     "items": "",
     "objective": [
         "- Pegar todas as Fichas de Objetivo.",
-        "- Após completar o objetivo acima, todos os Sobreviventes restantes devem chegar à mesma Zona de Entrada e garantir que não existem",
+        "- Após completar o objetivo acima, todos os Sobreviventes restantes devem chegar à mesma Zona de Entrada e garantir que não existem ",
         "Zumbis por lá."
     ],
     "special_rules": [
         "- Cada Ficha de Objetivo rende 5 pontos de experiência ao Sobrevivente que a pegou.",
         "- É permitido dirigir os carros.",
         "- Só é permitido Procurar no Tunadão uma vez. Ele contém ou as Gêmeas do Mal, ou a Semi-automática (pegue aleatoriamente).",
-        "- É permitido Procurar o carro da polícia mais de uma vez. Pegue cartas até que encontre uma arma. Descarte as outras cartas.",
+        "- É permitido Procurar o carro da polícia mais de uma vez. Pegue cartas até que encontre uma arma. Descarte as outras cartas. ",
         "A carta Aaahh! funciona normalmente e faz surgir um Lerdo, interrompendo a Procura."
     ]
 }

@@ -20,22 +20,41 @@
         <link rel="icon" href="favicon.ico" type="image/x-icon"/>
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/zebra_dialog.min.css">
         <link rel="stylesheet" href="css/style.css"/>
     </head>
     <body>
-        <div id="container">
+        <div id="container" class="remodal-bg">
             <div id="controls">
                 <div id="logo">
                     <a id="aLogo" href="/zombicide"></a>
                 </div>
                 <div id="missions">
                     <select id="sMissions" onchange="onChangeMission()"></select>
+                    <p style="margin-top: 10px;">
+                        <a href="#" onclick="openBriefing()" title="Detalhes da missão">
+                            <i class="fa fa-map-signs fa-2x menu_buttons"></i>
+                        </a>&nbsp;
+                        <a href="#" onclick="" title="Controles">
+                            <i class="fa fa-gamepad fa-2x menu_buttons"></i>
+                        </a>&nbsp;
+                        <a href="#" onclick="" title="Manual do jogo">
+                            <i class="fa fa-book fa-2x menu_buttons"></i>
+                        </a>&nbsp;
+                        <a href="#" onclick="" title="Sobre...">
+                            <i class="fa fa-info-circle fa-2x menu_buttons"></i>
+                        </a>
+                    </p>
                 </div>
             </div>
             <div id="table"></div>
         </div>
 
         <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/zebra_dialog.min.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
     </body>
 </html>

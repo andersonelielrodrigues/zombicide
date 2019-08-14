@@ -369,6 +369,7 @@ function loadOptions(pSet) {
     return oOptions;
 }
 
+// carrega texto
 function loadText(pSet, pTxt) {
     var oTxt = [];
 
@@ -633,12 +634,14 @@ function drawCard(pType) {
     eval("rebuildDeck(this.oDeck" + pType + ".length, oOptions, '" + pType + "');");
 }
 
+// remove última carta
 function removeLast(pId) {
     var oImg = document.getElementById(pId);
 
     this.oControls.removeChild(oImg);
 }
 
+// remonta o deck
 function rebuildDeck(pNumber, pOptions, pType) {
     eval("var vId = this.j" + pType + "s.Verso.id + '_1';");
     
@@ -726,4 +729,152 @@ function resetObjects() {
     var oSpawnOptions = loadOptions(this.jSpawnset);
 
     rebuildDeck(this.oDeckSpawn.length, oSpawnOptions, "Spawn");
+}
+
+// abre briefing da missão
+function openBriefing() {
+    var oMissions = document.getElementById("sMissions");
+
+    var vId = oMissions.selectedIndex,
+        vTxt = oMissions.options[vId].innerHTML;
+
+    var oTitle = loadSpan("mission_title", "Missão " + vId + " - " + vTxt);
+
+    var jMission = loadSet(this.jMissions[vId].src);
+
+    var oMsg = loadMsg(jMission);
+
+    new $.Zebra_Dialog(
+        {
+            width: 1200,
+            buttons: false,
+            title: oTitle,
+            message: oMsg
+        }
+    );
+}
+
+// monta mensagem
+function loadMsg(pMission) {
+    var oMsg = document.createElement("DIV"),
+        oSpan;
+
+    oSpan = loadSpan("mission_bold", pMission.mode + " / " + pMission.survivors + " Sobreviventes " + " / " + pMission.time, 2);
+
+    oMsg.appendChild(oSpan);
+
+    oSpan = loadDesc("mission_desc", pMission.description, false, 2);
+
+    oMsg.appendChild(oSpan);
+
+    oSpan = loadSpan("mission_bold", "Mapas necessários: ", 0);
+    oSpan = loadTiles(pMission, oSpan, 2);
+
+    oMsg.appendChild(oSpan);
+
+    oSpan = loadSpan("mission_subtitle", "Objetivo", 0);
+
+    oMsg.appendChild(oSpan);
+
+    oSpan = loadDesc("mission_desc", pMission.objective, true, 2);
+
+    oMsg.appendChild(oSpan);
+
+    oSpan = loadSpan("mission_subtitle", "Regras Especiais", 0);
+
+    oMsg.appendChild(oSpan);
+
+    oSpan = loadDesc("mission_desc", pMission.special_rules, true, 0);
+
+    oMsg.appendChild(oSpan);
+
+    return oMsg;
+}
+
+// monta span
+function loadSpan(pClass, pTxt, pBr) {
+    var oSpan = document.createElement("SPAN"),
+        vTxt = document.createTextNode(pTxt);
+
+    oSpan.appendChild(vTxt);
+    oSpan.className = pClass;
+
+    for(var i = 1; i <= pBr; i++) {
+        oSpan.appendChild(document.createElement("BR"));
+    }
+
+    return oSpan;
+}
+
+// monta descritivos das missões
+function loadDesc(pClass, pSet, pList, pBr) {
+    var oSpan = document.createElement("SPAN"),
+        vTxt = "", vSend = false, i;
+
+    oSpan.className = pClass;
+
+    for(i = 0; i < pSet.length; i++) {
+        if(pList && pSet[i].substr(0, 1) === "-") {
+            if(vTxt) {
+                vTxt = document.createTextNode(vTxt);
+                oSpan.appendChild(vTxt);
+
+                vTxt = "";
+            }
+
+            oSpan.appendChild(document.createElement("BR"));
+        } else if(pList && pSet[i].substr(0, 1) === "*") {
+            oSpan.appendChild(document.createElement("BR"));
+            oSpan.appendChild(document.createElement("BR"));
+
+            vSend = true;
+        }
+
+        vTxt = vTxt + pSet[i];
+
+        if(vSend) {
+            vTxt = document.createTextNode(vTxt);
+            oSpan.appendChild(vTxt);
+
+            vTxt = "";
+            vSend = false;
+        }
+    }
+
+    vTxt = document.createTextNode(vTxt);
+    oSpan.appendChild(vTxt);
+
+    for(var i = 1; i <= pBr; i++) {
+        oSpan.appendChild(document.createElement("BR"));
+    }
+
+    return oSpan;
+}
+
+// monta tiles
+function loadTiles(pMission, pSpan, pBr) {
+    var oSpan = document.createElement("SPAN"),
+        vCount = Object.keys(pMission.tiles).length,
+        vTiles = "", i;
+
+    for(i = 0; i < vCount; i++) {
+        vTiles = vTiles + pMission.tiles[i].tile;
+
+        if(i === (vCount - 2)) {
+            vTiles = vTiles + " e ";
+        } else if(i === (vCount - 1)) {
+            vTiles = vTiles + ".";
+        } else {
+            vTiles = vTiles + ", ";
+        }
+    }
+
+    vTiles = document.createTextNode(vTiles);
+    pSpan.appendChild(vTiles);
+
+    for(i = 1; i <= pBr; i++) {
+        pSpan.appendChild(document.createElement("BR"));
+    }
+
+    return pSpan;
 }

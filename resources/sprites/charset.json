@@ -37,7 +37,7 @@
                 "width": "66",
                 "height": "93",
                 "copies": "1",
-                "x": "170",
+                "x": "190",
                 "y": "10",
                 "z-index": "99",
                 "title": "Amy"
@@ -49,7 +49,7 @@
                 "width": "66",
                 "height": "93",
                 "copies": "1",
-                "x": "246",
+                "x": "266",
                 "y": "10",
                 "z-index": "99",
                 "title": "Doug"
@@ -61,7 +61,7 @@
                 "width": "66",
                 "height": "93",
                 "copies": "1",
-                "x": "322",
+                "x": "342",
                 "y": "10",
                 "z-index": "99",
                 "title": "Josh"
@@ -73,7 +73,7 @@
                 "width": "66",
                 "height": "93",
                 "copies": "1",
-                "x": "170",
+                "x": "190",
                 "y": "130",
                 "z-index": "99",
                 "title": "Ned"
@@ -85,7 +85,7 @@
                 "width": "66",
                 "height": "93",
                 "copies": "1",
-                "x": "246",
+                "x": "276",
                 "y": "130",
                 "z-index": "99",
                 "title": "Phil"
@@ -97,7 +97,7 @@
                 "width": "66",
                 "height": "93",
                 "copies": "1",
-                "x": "322",
+                "x": "342",
                 "y": "130",
                 "z-index": "99",
                 "title": "Wanda"
@@ -111,7 +111,7 @@
                 "width": "40",
                 "height": "88",
                 "copies": "40",
-                "x": "410",
+                "x": "430",
                 "y": "10",
                 "z-index": "98",
                 "title": "Lerdo"
@@ -123,7 +123,7 @@
                 "width": "50",
                 "height": "89",
                 "copies": "16",
-                "x": "490",
+                "x": "510",
                 "y": "10",
                 "z-index": "98",
                 "title": "Corredor"
@@ -135,7 +135,7 @@
                 "width": "57",
                 "height": "86",
                 "copies": "8",
-                "x": "410",
+                "x": "430",
                 "y": "130",
                 "z-index": "98",
                 "title": "Balofo"
@@ -147,7 +147,7 @@
                 "width": "87",
                 "height": "116",
                 "copies": "1",
-                "x": "470",
+                "x": "490",
                 "y": "103",
                 "z-index": "98",
                 "title": "ABOMINAÇÃO"
@@ -161,7 +161,7 @@
                 "width": "175",
                 "height": "88",
                 "copies": "2",
-                "x": "580",
+                "x": "590",
                 "y": "10",
                 "z-index": "96",
                 "title": "Viatura da polícia"
@@ -173,7 +173,7 @@
                 "width": "175",
                 "height": "88",
                 "copies": "2",
-                "x": "580",
+                "x": "590",
                 "y": "130",
                 "z-index": "96",
                 "title": "Tunadão"

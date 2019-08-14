@@ -3,9 +3,9 @@
     "survivors": "4+",
     "time": "90min",
     "description": [
-        "Avistamos uma grande e confortável casa. As construções não parecem muito danificadas e alguns carros ainda parecem funcionar.",
-        "O estoque desta casa deve estar cheio, afinal, parece que os saqueadores não conseguiram resistir por muito tempo aqui. Nós claramente",
-        "entendemos o porque: esta área está infestada de zumbis. Os moradores desta região claramente não puderam fazer nada. Antes de explorar,",
+        "Avistamos uma grande e confortável casa. As construções não parecem muito danificadas e alguns carros ainda parecem funcionar. ",
+        "O estoque desta casa deve estar cheio, afinal, parece que os saqueadores não conseguiram resistir por muito tempo aqui. Nós claramente ",
+        "entendemos o porque: esta área está infestada de zumbis. Os moradores desta região claramente não puderam fazer nada. Antes de explorar, ",
         "é bom limparmos a área. Agora, eu sonho com um chiclete."
     ],
     "tiles": {
@@ -72,7 +72,7 @@
         "- Cada Ficha de Objetivo rende 5 pontos de experiência ao Sobrevivente que a pegou.",
         "- É permitido dirigir os carros.",
         "- Só é permitido Procurar no Tunadão uma vez. Ele contém ou as Gêmeas do Mal, ou a Semi-automática (pegue aleatoriamente).",
-        "- É permitido Procurar o carro da polícia mais de uma vez. A carta Aaahh! funciona normalmente e faz surgir um Lerdo interrompendo",
+        "- É permitido Procurar o carro da polícia mais de uma vez. A carta Aaahh! funciona normalmente e faz surgir um Lerdo interrompendo ",
         "a Procura."
     ]
 }

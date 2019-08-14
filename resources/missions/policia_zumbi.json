@@ -3,10 +3,10 @@
     "survivors": "6+",
     "time": "180min",
     "description": [
-        "Acabamos de matar um zumbi que era o prefeito desta cidade. Ele estava carregando um fax do chefe de polícia que explicava",
-        "como fugir de maneira segura deste pesadelo, uma passagem subterrânea, antiga, que havia se transformado num bunker, perto da",
-        "estação de polícia. Lá conseguiremos encontrar munição, estoque de comida e quem sabe até um chuveiro. Este bunker seria o lugar",
-        "perfeito para nos abrigarmos. Só tem um porém, a entrada dele é controlada à distância, e esse distrito está infestado de zumbis.",
+        "Acabamos de matar um zumbi que era o prefeito desta cidade. Ele estava carregando um fax do chefe de polícia que explicava ",
+        "como fugir de maneira segura deste pesadelo, uma passagem subterrânea, antiga, que havia se transformado num bunker, perto da ",
+        "estação de polícia. Lá conseguiremos encontrar munição, estoque de comida e quem sabe até um chuveiro. Este bunker seria o lugar ",
+        "perfeito para nos abrigarmos. Só tem um porém, a entrada dele é controlada à distância, e esse distrito está infestado de zumbis. ",
         "É uma missão bem perigosa, mas parece valer muito a pena. O que não te mata hoje, pode te matar amanhã."
     ],
     "tiles": {
@@ -58,7 +58,7 @@
         "- Cada Ficha de Objetivo rende 5 pontos de experiência ao Sobrevivente que a pegou.",
         "- É permitido dirigir os carros.",
         "- Só é permitido Procurar no Tunadão uma vez. Ele contém ou as Gêmeas do Mal, ou a Semi-automática (pegue aleatoriamente).",
-        "- É permitido Procurar o carro da polícia mais de uma vez. Pegue cartas até que encontre uma arma. Descarte as outras cartas.",
+        "- É permitido Procurar o carro da polícia mais de uma vez. Pegue cartas até que encontre uma arma. Descarte as outras cartas. ",
         "A carta Aaahh! funciona normalmente e faz surgir um Lerdo, interrompendo a Procura."
     ]
 }
