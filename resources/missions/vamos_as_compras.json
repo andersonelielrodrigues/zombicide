@@ -1,4 +1,5 @@
 {
+    "title": "Vamos às Compras",
     "mode": "Difícil",
     "survivors": "6+",
     "time": "180min",
@@ -65,7 +66,155 @@
             "rotate": 2
         }
     },
-    "items": "",
+    "items": {
+        "0": {
+            "item": "objective_8",
+            "left": 252,
+            "top": 295,
+            "rotate": 0,
+            "flip": false
+        },
+        "1": {
+            "item": "spawn_5",
+            "left": 501,
+            "top": 230,
+            "rotate": 0,
+            "flip": false
+        },
+        "2": {
+            "item": "objective_7",
+            "left": 777,
+            "top": 304,
+            "rotate": 0,
+            "flip": false
+        },
+        "3": {
+            "item": "entry_1",
+            "left": 1583,
+            "top": 238,
+            "rotate": 0,
+            "flip": false
+        },
+        "4": {
+            "item": "door_10",
+            "left": 1474,
+            "top": 488,
+            "rotate": 2,
+            "flip": false
+        },
+        "5": {
+            "item": "door_9",
+            "left": 252,
+            "top": 602,
+            "rotate": 3,
+            "flip": false
+        },
+        "6": {
+            "item": "door_8",
+            "left": 1033,
+            "top": 602,
+            "rotate": 3,
+            "flip": false
+        },
+        "7": {
+            "item": "spawn_4",
+            "left": -25,
+            "top": 755,
+            "rotate": 3,
+            "flip": false
+        },
+        "8": {
+            "item": "door_7",
+            "left": 325,
+            "top": 902,
+            "rotate": 1,
+            "flip": false
+        },
+        "9": {
+            "item": "door_6",
+            "left": 1415,
+            "top": 902,
+            "rotate": 1,
+            "flip": false
+        },
+        "10": {
+            "item": "objective_6",
+            "left": 1273,
+            "top": 1028,
+            "rotate": 0,
+            "flip": false
+        },
+        "11": {
+            "item": "door_5",
+            "left": 183,
+            "top": 1154,
+            "rotate": 3,
+            "flip": false
+        },
+        "12": {
+            "item": "door_4",
+            "left": 858,
+            "top": 1154,
+            "rotate": 3,
+            "flip": false
+        },
+        "13": {
+            "item": "door_3",
+            "left": 1595,
+            "top": 1155,
+            "rotate": 3,
+            "flip": false
+        },
+        "14": {
+            "item": "spawn_3",
+            "left": -25,
+            "top": 1303,
+            "rotate": 3,
+            "flip": false
+        },
+        "15": {
+            "item": "door_2",
+            "left": 259,
+            "top": 1452,
+            "rotate": 1,
+            "flip": false
+        },
+        "16": {
+            "item": "door_1",
+            "left": 780,
+            "top": 1452,
+            "rotate": 1,
+            "flip": false
+        },
+        "17": {
+            "item": "bluedoor_1",
+            "left": 1595,
+            "top": 1452,
+            "rotate": 1,
+            "flip": false
+        },
+        "18": {
+            "item": "objective_5",
+            "left": 241,
+            "top": 1748,
+            "rotate": 0,
+            "flip": false
+        },
+        "19": {
+            "item": "spawn_2",
+            "left": 501,
+            "top": 1829,
+            "rotate": 0,
+            "flip": false
+        },
+        "20": {
+            "item": "objective_4",
+            "left": 1509,
+            "top": 1762,
+            "rotate": 0,
+            "flip": false
+        }
+    },
     "objective": [
         "- Pegar todas as Fichas de Objetivo."
     ],

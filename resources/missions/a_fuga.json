@@ -1,4 +1,5 @@
 {
+    "title": "A Fuga",
     "mode": "Difícil",
     "survivors": "6+",
     "time": "150min",
@@ -47,7 +48,106 @@
             "rotate": 1
         }
     },
-    "items": "",
+    "items": {
+        "0": {
+            "item": "spawn_5",
+            "left": 1053,
+            "top": 230,
+            "rotate": 0,
+            "flip": false
+        },
+        "1": {
+            "item": "door_10",
+            "left": 155,
+            "top": 352,
+            "rotate": 1,
+            "flip": false
+        },
+        "2": {
+            "item": "policecar_2",
+            "left": 211,
+            "top": 302,
+            "rotate": 2,
+            "flip": false
+        },
+        "3": {
+            "item": "door_9",
+            "left": 1230,
+            "top": 518,
+            "rotate": 0,
+            "flip": true
+        },
+        "4": {
+            "item": "entry_1",
+            "left": 1353,
+            "top": 484,
+            "rotate": 0,
+            "flip": false
+        },
+        "5": {
+            "item": "door_8",
+            "left": 927,
+            "top": 696,
+            "rotate": 2,
+            "flip": false
+        },
+        "6": {
+            "item": "exit_1",
+            "left": 1578,
+            "top": 700,
+            "rotate": 1,
+            "flip": false
+        },
+        "7": {
+            "item": "spawn_4",
+            "left": 1578,
+            "top": 806,
+            "rotate": 1,
+            "flip": false
+        },
+        "8": {
+            "item": "door_7",
+            "left": 926,
+            "top": 797,
+            "rotate": 2,
+            "flip": false
+        },
+        "9": {
+            "item": "door_6",
+            "left": 1223,
+            "top": 970,
+            "rotate": 0,
+            "flip": true
+        },
+        "10": {
+            "item": "spawn_3",
+            "left": 1325,
+            "top": 1088,
+            "rotate": 0,
+            "flip": false
+        },
+        "11": {
+            "item": "door_5",
+            "left": 155,
+            "top": 1150,
+            "rotate": 3,
+            "flip": false
+        },
+        "12": {
+            "item": "pimpcar_2",
+            "left": 233,
+            "top": 1168,
+            "rotate": 2,
+            "flip": false
+        },
+        "13": {
+            "item": "spawn_2",
+            "left": 1053,
+            "top": 1279,
+            "rotate": 0,
+            "flip": false
+        }
+    },
     "objective": [
         "- Complete as seguintes tarefas, nesta ordem:",
         "- Colocar até seis cartas de suprimentos abaixo das fichas de carro (veja as regras especiais). As cartas de suprimento podem ",

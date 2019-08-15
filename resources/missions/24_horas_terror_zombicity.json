@@ -1,4 +1,5 @@
 {
+    "title": "24h de Terror em Zombicity",
     "mode": "Médio",
     "survivors": "4+",
     "time": "90min",
@@ -64,7 +65,183 @@
             "rotate": 2
         }
     },
-    "items": "",
+    "items": {
+        "0": {
+            "item": "objective_8",
+            "left": 433,
+            "top": 299,
+            "rotate": 0,
+            "flip": false
+        },
+        "1": {
+            "item": "objective_7",
+            "left": 954,
+            "top": 323,
+            "rotate": 0,
+            "flip": false
+        },
+        "2": {
+            "item": "objective_6",
+            "left": 1519,
+            "top": 521,
+            "rotate": 0,
+            "flip": false
+        },
+        "3": {
+            "item": "door_10",
+            "left": 193,
+            "top": 605,
+            "rotate": 3,
+            "flip": false
+        },
+        "4": {
+            "item": "door_9",
+            "left": 707,
+            "top": 605,
+            "rotate": 3,
+            "flip": false
+        },
+        "5": {
+            "item": "door_8",
+            "left": 1352,
+            "top": 605,
+            "rotate": 3,
+            "flip": false
+        },
+        "6": {
+            "item": "spawn_5",
+            "left": -24,
+            "top": 753,
+            "rotate": 3,
+            "flip": false
+        },
+        "7": {
+            "item": "policecar_2",
+            "left": 11,
+            "top": 731,
+            "rotate": 3,
+            "flip": false
+        },
+        "8": {
+            "item": "pimpcar_2",
+            "left": 738,
+            "top": 745,
+            "rotate": 1,
+            "flip": false
+        },
+        "9": {
+            "item": "spawn_4",
+            "left": 1572,
+            "top": 753,
+            "rotate": 1,
+            "flip": false
+        },
+        "10": {
+            "item": "door_7",
+            "left": 892,
+            "top": 901,
+            "rotate": 1,
+            "flip": false
+        },
+        "11": {
+            "item": "entry_1",
+            "left": 21,
+            "top": 1031,
+            "rotate": 0,
+            "flip": false
+        },
+        "12": {
+            "item": "door_6",
+            "left": 124,
+            "top": 1031,
+            "rotate": 0,
+            "flip": false
+        },
+        "13": {
+            "item": "objective_5",
+            "left": 864,
+            "top": 1031,
+            "rotate": 0,
+            "flip": false
+        },
+        "14": {
+            "item": "door_5",
+            "left": 1475,
+            "top": 1031,
+            "rotate": 2,
+            "flip": false
+        },
+        "15": {
+            "item": "door_4",
+            "left": 745,
+            "top": 1154,
+            "rotate": 3,
+            "flip": false
+        },
+        "16": {
+            "item": "spawn_3",
+            "left": -24,
+            "top": 1303,
+            "rotate": 3,
+            "flip": false
+        },
+        "17": {
+            "item": "policecar_1",
+            "left": 735,
+            "top": 1285,
+            "rotate": 0,
+            "flip": false
+        },
+        "18": {
+            "item": "spawn_2",
+            "left": 1572,
+            "top": 1303,
+            "rotate": 1,
+            "flip": false
+        },
+        "19": {
+            "item": "door_3",
+            "left": 233,
+            "top": 1450,
+            "rotate": 1,
+            "flip": false
+        },
+        "20": {
+            "item": "door_2",
+            "left": 808,
+            "top": 1450,
+            "rotate": 1,
+            "flip": false
+        },
+        "21": {
+            "item": "door_1",
+            "left": 1269,
+            "top": 1450,
+            "rotate": 1,
+            "flip": false
+        },
+        "22": {
+            "item": "objective_4",
+            "left": 429,
+            "top": 1560,
+            "rotate": 0,
+            "flip": false
+        },
+        "23": {
+            "item": "objective_3",
+            "left": 626,
+            "top": 1769,
+            "rotate": 0,
+            "flip": false
+        },
+        "24": {
+            "item": "objective_2",
+            "left": 1506,
+            "top": 1734,
+            "rotate": 0,
+            "flip": false
+        }
+    },
     "objective": [
         "- Alcançar o Nível de Perigo Vermelho com ao menos 1 Sobrevivente."
     ],

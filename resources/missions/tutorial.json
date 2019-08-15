@@ -1,5 +1,6 @@
 {
-    "mode": "Fácil",
+    "title": "Tutorial",
+    "mode": "Tutorial",
     "survivors": "4+",
     "time": "20min",
     "description": [
@@ -27,43 +28,50 @@
             "item": "spawn_5",
             "left": -23,
             "top": 702,
-            "rotate": 3
+            "rotate": 3,
+            "flip": false
         },
         "1": {
             "item": "objective_8",
             "left": 69,
             "top": 293,
-            "rotate": 0
+            "rotate": 0,
+            "flip": false
         },
         "2": {
             "item": "walker_40",
             "left": 259,
             "top": 633,
-            "rotate": 0
+            "rotate": 0,
+            "flip": false
         },
         "3": {
             "item": "door_10",
             "left": 375,
             "top": 516,
-            "rotate": 2
+            "rotate": 2,
+            "flip": false
         },
         "4": {
             "item": "walker_39",
             "left": 813,
             "top": 217,
-            "rotate": 0
+            "rotate": 0,
+            "flip": false
         },
         "5": {
             "item": "entry_1",
             "left": 974,
             "top": 659,
-            "rotate": 0
+            "rotate": 0,
+            "flip": false
         },
         "6": {
             "item": "door_9",
             "left": 1043,
             "top": 353,
-            "rotate": 1
+            "rotate": 1,
+            "flip": false
         }        
     },
     "objective": [

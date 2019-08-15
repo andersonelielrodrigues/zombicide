@@ -1,4 +1,5 @@
 {
+    "title": "Cine Privê",
     "mode": "Fácil",
     "survivors": "6+",
     "time": "45min",
@@ -26,8 +27,7 @@
             "x": 0,
             "y": 780,
             "rotate": 0
-        },
-        "3": {
+        },"3": {
             "tile": "4C",
             "x": 550,
             "y": 780,

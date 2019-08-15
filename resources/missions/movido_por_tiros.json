@@ -1,4 +1,5 @@
 {
+    "title": "Movido por Tiros",
     "mode": "Médio",
     "survivors": "4+",
     "time": "90min",
@@ -57,7 +58,183 @@
             "rotate": 1
         }
     },
-    "items": "",
+    "items": {
+        "0": {
+            "item": "objective_8",
+            "left": 422,
+            "top": 284,
+            "rotate": 0,
+            "flip": false
+        },
+        "1": {
+            "item": "objective_7",
+            "left": 954,
+            "top": 316,
+            "rotate": 0,
+            "flip": false
+        },
+        "2": {
+            "item": "objective_6",
+            "left": 1360,
+            "top": 288,
+            "rotate": 0,
+            "flip": false
+        },
+        "3": {
+            "item": "spawn_5",
+            "left": 1594,
+            "top": 232,
+            "rotate": 0,
+            "flip": false
+        },
+        "4": {
+            "item": "objective_5",
+            "left": 1900,
+            "top": 298,
+            "rotate": 0,
+            "flip": false
+        },
+        "5": {
+            "item": "door_10",
+            "left": 2026,
+            "top": 420,
+            "rotate": 2,
+            "flip": false
+        },
+        "6": {
+            "item": "door_9",
+            "left": 1475,
+            "top": 514,
+            "rotate": 2,
+            "flip": false
+        },
+        "7": {
+            "item": "door_8",
+            "left": 1778,
+            "top": 503,
+            "rotate": 0,
+            "flip": false
+        },
+        "8": {
+            "item": "door_7",
+            "left": 213,
+            "top": 600,
+            "rotate": 3,
+            "flip": false
+        },
+        "9": {
+            "item": "door_6",
+            "left": 719,
+            "top": 600,
+            "rotate": 3,
+            "flip": false
+        },
+        "10": {
+            "item": "spawn_4",
+            "left": -25,
+            "top": 753,
+            "rotate": 3,
+            "flip": false
+        },
+        "11": {
+            "item": "entry_1",
+            "left": 54,
+            "top": 751,
+            "rotate": 0,
+            "flip": false
+        },
+        "12": {
+            "item": "pimpcar_2",
+            "left": 464,
+            "top": 737,
+            "rotate": 0,
+            "flip": false
+        },
+        "13": {
+            "item": "policecar_2",
+            "left": 1014,
+            "top": 771,
+            "rotate": 2,
+            "flip": false
+        },
+        "14": {
+            "item": "policecar_1",
+            "left": 1557,
+            "top": 726,
+            "rotate": 1,
+            "flip": false
+        },
+        "15": {
+            "item": "spawn_3",
+            "left": 2120,
+            "top": 753,
+            "rotate": 1,
+            "flip": false
+        },
+        "16": {
+            "item": "door_5",
+            "left": 242,
+            "top": 901,
+            "rotate": 1,
+            "flip": false
+        },
+        "17": {
+            "item": "door_4",
+            "left": 856,
+            "top": 901,
+            "rotate": 1,
+            "flip": false
+        },
+        "18": {
+            "item": "door_3",
+            "left": 1476,
+            "top": 980,
+            "rotate": 2,
+            "flip": false
+        },
+        "19": {
+            "item": "door_2",
+            "left": 1774,
+            "top": 1005,
+            "rotate": 0,
+            "flip": false
+        },
+        "20": {
+            "item": "door_1",
+            "left": 2021,
+            "top": 1085,
+            "rotate": 2,
+            "flip": false
+        },
+        "21": {
+            "item": "objective_4",
+            "left": 87,
+            "top": 1202,
+            "rotate": 0,
+            "flip": false
+        },
+        "22": {
+            "item": "objective_3",
+            "left": 1366,
+            "top": 1207,
+            "rotate": 0,
+            "flip": false
+        },
+        "23": {
+            "item": "objective_2",
+            "left": 1904,
+            "top": 1208,
+            "rotate": 0,
+            "flip": false
+        },
+        "24": {
+            "item": "spawn_2",
+            "left": 1594,
+            "top": 1278,
+            "rotate": 0,
+            "flip": false
+        }
+    },
     "objective": [
         "- Pegar todas as Fichas de Objetivo.",
         "- Após completar o objetivo acima, todos os Sobreviventes restantes devem chegar à mesma Zona de Entrada e garantir que não existem ",

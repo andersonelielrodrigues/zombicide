@@ -339,6 +339,10 @@ function loadMissionItems(pItems) {
                 rotateImg(vItem.item);
             }
         }
+
+        if(vItem.flip) {
+            flipImg(vItem.item);
+        }
     }
 }
 
@@ -735,12 +739,13 @@ function resetObjects() {
 function openBriefing() {
     var oMissions = document.getElementById("sMissions");
 
-    var vId = oMissions.selectedIndex,
-        vTxt = oMissions.options[vId].innerHTML;
-
-    var oTitle = loadSpan("mission_title", "Missão " + vId + " - " + vTxt);
+    var vId = oMissions.selectedIndex;
 
     var jMission = loadSet(this.jMissions[vId].src);
+
+    var vTxt = jMission.title;
+
+    var oTitle = loadSpan("mission_title", "Missão " + vId + " - " + vTxt);
 
     var oMsg = loadMsg(jMission);
 
