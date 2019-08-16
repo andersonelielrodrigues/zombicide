@@ -1,0 +1,36 @@
+{
+    "image": {
+        "id": "sheetset",
+        "src": "resources/sprites/sheetset.png",
+        "width": "902",
+        "height": "707",
+        "mime": "image/png"
+    },
+    "frames": {
+        "general": {
+            "position": "absolute",
+            "container": "sheet",
+            "drag": false,
+            "rotate": false,
+            "flip": false,
+            "destroy": false,
+            "drawItem": false,
+            "drawSpawn": false,
+            "open": false
+        },
+        "sheet": {
+            "sheet": {
+                "id": "sheet",
+                "top": "0",
+                "left": "0",
+                "width": "800",
+                "height": "457",
+                "copies": "1",
+                "x": "0",
+                "y": "0",
+                "z-index": "99",
+                "title": "Sheet"
+            }
+        }
+    }
+}

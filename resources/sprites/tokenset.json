@@ -14,7 +14,9 @@
             "rotate": true,
             "flip": false,
             "destroy": true,
-            "draw": false
+            "drawItem": false,
+            "drawSpawn": false,
+            "open": false
         },
         "doors": {
             "Door": {

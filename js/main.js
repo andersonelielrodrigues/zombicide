@@ -108,6 +108,14 @@ function loadSprites() {
 
     this.jSpawnGeneral = this.jSpawnset.frames.general;
     this.jSpawns = this.jSpawnset.frames.spawns;
+
+    // carrega sheetset - spritesheet de ficha de personagem
+    this.jSheetset = loadSet(this.jConfig.sheetset);
+
+    this.oSheetset = loadObject(this.jSheetset);
+
+    this.jSheetGeneral = this.jSheetset.frames.general;
+    this.jSheets = this.jSheetset.frames.sheet;
 }
 
 // carrega objeto imagem
@@ -194,6 +202,8 @@ window.onload = function() {
     loadImage(this.jSurvivors.Ned, this.oCharset, oCharOptions, null, null);
     loadImage(this.jSurvivors.Phil, this.oCharset, oCharOptions, null, null);
     loadImage(this.jSurvivors.Wanda, this.oCharset, oCharOptions, null, null);
+
+    oCharOptions.Open = false;
 
     // carrega zumbis
     loadImage(this.jZombies.Walker, this.oCharset, oCharOptions, null, null);
@@ -355,7 +365,7 @@ function loadOptions(pSet) {
         oOptions.Position = this.jCharset.logo.position;
         oOptions.Container = this.jCharset.logo.container;
         
-        oOptions.Drag = oOptions.Rotate = oOptions.Flip = oOptions.Destroy = oOptions.Draw = false;
+        oOptions.Drag = oOptions.Rotate = oOptions.Flip = oOptions.Destroy = oOptions.Draw = oOptions.Open = false;
     } else {
         oOptions.Mime = pSet.image.mime;
         oOptions.Position = pSet.frames.general.position;
@@ -366,6 +376,7 @@ function loadOptions(pSet) {
         oOptions.Destroy = pSet.frames.general.destroy;
         oOptions.DrawItem = pSet.frames.general.drawItem;
         oOptions.DrawSpawn = pSet.frames.general.drawSpawn;
+        oOptions.Open = pSet.frames.general.open;
     }
 
     oOptions.FTop = oOptions.FLeft = oOptions.UTop = oOptions.ULeft = 0;
@@ -472,6 +483,13 @@ function loadImage(pImage, pSet, pOptions, pTxt, pId) {
         if(pOptions.DrawSpawn) {
             oImg.addEventListener("click", function() {
                 drawCard("Spawn");
+            });
+        }
+
+        // carrega evento de abertura da ficha
+        if(pOptions.Open) {
+            oImg.addEventListener("click", function() {
+                openSheet(pImage.title);
             });
         }
 
@@ -656,6 +674,24 @@ function rebuildDeck(pNumber, pOptions, pType) {
     eval("var oTxt = loadText(this.j" + pType + "set, '" + pNumber + "');");
 
     eval("loadImage(this.j" + pType + "s.Verso, this.o" + pType + "set, pOptions, oTxt, null);");
+}
+
+// abertura da ficha
+function openSheet(pId) {
+    var oCharset = this.jCharset.frames.survivors[pId];
+
+    new $.Zebra_Dialog(
+        {
+            width: 800,
+            height: 457,
+            buttons: false,
+            message: "<div id='sheet'/>"
+        }
+    );
+
+    var oSheetOptions = loadOptions(this.jSheetset);
+
+    loadImage(this.jSheets.sheet, this.oSheetset, oSheetOptions, null, null);
 }
 
 // troca a missão

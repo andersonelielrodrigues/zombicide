@@ -16,6 +16,7 @@
             "destroy": false,
             "drawItem": true,
             "drawSpawn": false,
+            "open": false,
             "text": {
                 "font": "LandSpeedRecord",
                 "size": "38px",

@@ -14,7 +14,9 @@
             "rotate": false,
             "flip": false,
             "destroy": false,
-            "draw": false
+            "drawItem": false,
+			"drawSpawn": false,
+			"open": false
         },
 		"tiles": {
 			"1C": {

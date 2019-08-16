@@ -17,7 +17,8 @@
         "y": "60",
         "position": "absolute",
         "container": "aLogo",
-        "z-index": "0"
+        "z-index": "0",
+        "title": "Zombicide"
     },
     "frames": {
         "general": {
@@ -27,7 +28,9 @@
             "rotate": false,
             "flip": false,
             "destroy": true,
-            "draw": false
+            "drawItem": false,
+            "drawSpawn": false,
+            "open": true
         },
         "survivors": {
             "Amy": {
