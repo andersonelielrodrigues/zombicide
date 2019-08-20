@@ -2,8 +2,8 @@
     "image": {
         "id": "sheetset",
         "src": "resources/sprites/sheetset.png",
-        "width": "902",
-        "height": "707",
+        "width": 902,
+        "height": 707,
         "mime": "image/png"
     },
     "frames": {
@@ -21,15 +21,99 @@
         "sheet": {
             "sheet": {
                 "id": "sheet",
-                "top": "0",
-                "left": "0",
-                "width": "800",
-                "height": "457",
-                "copies": "1",
-                "x": "0",
-                "y": "0",
-                "z-index": "99",
+                "top": 0,
+                "left": 0,
+                "width": 800,
+                "height": 457,
+                "copies": 1,
+                "x": 0,
+                "y": 0,
+                "z-index": 198,
                 "title": "Sheet"
+            },
+            "level": {
+                "id": "level",
+                "top": 457,
+                "left": 744,
+                "width": 17,
+                "height": 35,
+                "copies": 1,
+                "x": 0,
+                "y": 10,
+                "z-index": 199,
+                "title": ""
+            },
+            "amy": {
+                "id": "amy",
+                "top": 0,
+                "left": 800,
+                "width": 102,
+                "height": 250,
+                "copies": 1,
+                "x": 50,
+                "y": 160,
+                "z-index": 199,
+                "title": "Amy"
+            },
+            "doug": {
+                "id": "doug",
+                "top": 457,
+                "left": 0,
+                "width": 178,
+                "height": 250,
+                "copies": 1,
+                "x": 50,
+                "y": 160,
+                "z-index": 199,
+                "title": "Doug"
+            },
+            "josh": {
+                "id": "josh",
+                "top": 457,
+                "left": 178,
+                "width": 156,
+                "height": 250,
+                "copies": 1,
+                "x": 50,
+                "y": 160,
+                "z-index": 199,
+                "title": "Josh"
+            },
+            "ned": {
+                "id": "ned",
+                "top": 457,
+                "left": 474,
+                "width": 136,
+                "height": 250,
+                "copies": 1,
+                "x": 50,
+                "y": 160,
+                "z-index": 199,
+                "title": "Ned"
+            },
+            "phil": {
+                "id": "phil",
+                "top": 457,
+                "left": 610,
+                "width": 134,
+                "height": 250,
+                "copies": 1,
+                "x": 50,
+                "y": 160,
+                "z-index": 199,
+                "title": "Phil"
+            },
+            "wanda": {
+                "id": "wanda",
+                "top": 457,
+                "left": 334,
+                "width": 140,
+                "height": 250,
+                "copies": 1,
+                "x": 50,
+                "y": 160,
+                "z-index": 199,
+                "title": "Wanda"
             }
         }
     }
