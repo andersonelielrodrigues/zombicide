@@ -6,5 +6,6 @@
     "spawnset": "resources/sprites/spawnset.json",
     "sheetset": "resources/sprites/sheetset.json",
     "itemdeck": 62,
-    "spawndeck": 54
+    "spawndeck": 54,
+    "levelsize": 17.4
 }

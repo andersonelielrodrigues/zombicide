@@ -55,3 +55,13 @@ a:hover {
     font-size: 28px;
     color: #999;
 }
+
+.sheet_name {
+    position: absolute;
+    top: 95px;
+    left: 40px;
+    font-family: LandSpeedRecord;
+    font-size: 48px;
+    color: #333;
+    z-index: 200;
+}

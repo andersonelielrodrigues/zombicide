@@ -692,6 +692,16 @@ function openSheet(pId) {
     var oSheetOptions = loadOptions(this.jSheetset);
 
     loadImage(this.jSheets.sheet, this.oSheetset, oSheetOptions, null, null);
+
+    this.jSheets.level.x = (oCharset.sheet.level + 1) * this.jConfig.levelsize;
+
+    loadImage(this.jSheets.level, this.oSheetset, oSheetOptions, null, null);
+
+    loadImage(this.jSheets[pId.toLowerCase()], this.oSheetset, oSheetOptions, null, null);
+    
+    var oSpan = loadSpan("sheet_name", pId, 0);
+
+    document.getElementById("sheet").appendChild(oSpan);
 }
 
 // troca a missão
