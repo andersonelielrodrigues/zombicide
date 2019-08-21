@@ -45,7 +45,81 @@
                 "z-index": 99,
                 "title": "Amy",
                 "sheet": {
-                    "level": 0
+                    "level": 0,
+                    "actions": {
+                        "blue": {
+                            "0": {
+                                "title": "+ 1 Ação de Movimento",
+                                "help": [
+                                    "O Sobrevivente ganha uma Ação extra de Movimento. Esta Ação pode ser usada somente para Movimento"
+                                ],
+                                "on": true
+                            }
+                        },
+                        "yellow": {
+                            "0": {
+                                "title": "+ 1 Ação",
+                                "help": [
+                                    "O Sobrevivente ganha uma Ação extra e pode usar como desejar"
+                                ],
+                                "on": false
+                            }
+                        },
+                        "orange": {
+                            "0": {
+                                "title": "+ 1 Ação de Combate",
+                                "help": [
+                                    "O Sobrevivente ganha uma Ação extra de Combate. Esta Ação pode ser usada somente para Combate Corpo-a-corpo ",
+                                    "ou Combate de Alcance"
+                                ],
+                                "on": false
+                            },
+                            "1": {
+                                "title": "+ 1 Ação de Movimento",
+                                "help": [
+                                    "O Sobrevivente ganha uma Ação extra de Movimento. Esta Ação pode ser usada somente para Movimento"
+                                ],
+                                "on": false
+                            }
+                        },
+                        "red": {
+                            "0": {
+                                "title": "+1 no Dado: Combate",
+                                "help": [
+                                    "O Sobrevivente adiciona 1 ao resultado de cada dado que rolou em uma Ação de Combate (Corpo-a-corpo ou de Alcance). ",
+                                    "O Resultado máximo é sempre 6"
+                                ],
+                                "on": false
+                            },
+                            "1": {
+                                "title": "+1 Dado: Combate",
+                                "help": [
+                                    "A arma do Sobrevivente rola um dado extra em Combate (Corpo-a-corpo ou de Alcance). Armas Duplas ganham um dado cada, ",
+                                    "para um total de +2 dados por Ação de Combate Dupla"
+                                ],
+                                "on": false
+                            },
+                            "2": {
+                                "title": "Médico",
+                                "help": [
+                                    "Uma vez por turno, o Sobrevivente pode remover uma carta de Ferimento de um Sobrevivente que esteja na mesma Zona que ",
+                                    "ele. Ele pode também utilizar essa habilidade nele mesmo"
+                                ],
+                                "on": false
+                            }
+                        }
+                    },
+                    "cards": {
+                        "hand": {
+                            "0": "",
+                            "1": ""
+                        },
+                        "reserve": {
+                            "0": "",
+                            "1": "",
+                            "2": ""
+                        }
+                    }
                 }
             },
             "Doug": {
@@ -60,7 +134,83 @@
                 "z-index": 99,
                 "title": "Doug",
                 "sheet": {
-                    "level": 0
+                    "level": 0,
+                    "actions": {
+                        "blue": {
+                            "0": {
+                                "title": "Dupla Letal!",
+                                "help": [
+                                    "Quando um Sobrevivente realiza uma Ação de Procura e compra uma carta com o símbolo de Dupla, ele pode ",
+                                    "imediatamente pegar uma outra carta do mesmo Equipamento da pilha de Equipamentos. Embaralhe a Pilha de ",
+                                    "Equipamentos após isso"
+                                ],
+                                "on": true
+                            }
+                        },
+                        "yellow": {
+                            "0": {
+                                "title": "+ 1 Ação",
+                                "help": [
+                                    "O Sobrevivente ganha uma Ação extra e pode usar como desejar"
+                                ],
+                                "on": false
+                            }
+                        },
+                        "orange": {
+                            "0": {
+                                "title": "+ 1 Dado: Alcance",
+                                "help": [
+                                    "A arma de Alcance do Sobrevivente rola um dado extra em uma Ação de Combate de Alcance (com Alcance maior ou ",
+                                    "igual a 1). Armas com Alcance Duplas ganham um dado cada, para um total de +2 dados por Ação de Combate Dupla ",
+                                    "de Alcance"
+                                ],
+                                "on": false
+                            },
+                            "1": {
+                                "title": "+ 1 Ação de Combate",
+                                "help": [
+                                    "O Sobrevivente ganha uma Ação extra de Combate. Esta Ação pode ser usada somente para Combate Corpo-a-corpo ",
+                                    "Combate de Alcance"
+                                ],
+                                "on": false
+                            }
+                        },
+                        "red": {
+                            "0": {
+                                "title": "+ 1 no Dado: Combate",
+                                "help": [
+                                    "O Sobrevivente adiciona 1 ao resultado de cada dado que rolou em uma Ação de Combate (Corpo-a-corpo ou de Alcance). ",
+                                    "O Resultado máximo é sempre 6"
+                                ],
+                                "on": false
+                            },
+                            "1": {
+                                "title": "Ambidestro",
+                                "help": [
+                                    "O Sobrevivente trata todas as armas Corpo-a-corpo ou de Alcance como se elas possuíssem o símbolo Dupla"
+                                ],
+                                "on": false
+                            },
+                            "2": {
+                                "title": "Liso",
+                                "help": [
+                                    "O Sobrevivente não gasta Ações Extras quando realiza uma Ação de Movimento através de Zonas que contém Zumbis"
+                                ],
+                                "on": false
+                            }
+                        }
+                    },
+                    "cards": {
+                        "hand": {
+                            "0": "",
+                            "1": ""
+                        },
+                        "reserve": {
+                            "0": "",
+                            "1": "",
+                            "2": ""
+                        }
+                    }
                 }
             },
             "Josh": {
@@ -75,7 +225,82 @@
                 "z-index": 99,
                 "title": "Josh",
                 "sheet": {
-                    "level": 0
+                    "level": 0,
+                    "actions": {
+                        "blue": {
+                            "0": {
+                                "title": "Liso",
+                                "help": [
+                                    "O Sobrevivente não gasta Ações Extras quando realiza uma Ação de Movimento através de Zonas que contém Zumbis"
+                                ],
+                                "on": true
+                            }
+                        },
+                        "yellow": {
+                            "0": {
+                                "title": "+ 1 Ação",
+                                "help": [
+                                    "O Sobrevivente ganha uma Ação extra e pode usar como desejar"
+                                ],
+                                "on": false
+                            }
+                        },
+                        "orange": {
+                            "0": {
+                                "title": "+ 1 Dado: Corpo-a-corpo",
+                                "help": [
+                                    "A arma Corpo-a-corpo do Sobrevivente rola um dado extra em uma Ação de Combate Corpo-a-corpo. Armas Corpo-a-corpo ",
+                                    "Duplas ganham um dado cada, para um total de +2 dados por Ação de Combate Dupla Corpo-a-corpo"
+                                ],
+                                "on": false
+                            },
+                            "1": {
+                                "title": "+ 1 Re-rolada por Turno",
+                                "help": [
+                                    "Uma vez por turno, você pode re-rolar todos os dados ligados à uma Ação feita pelo Sobrevivente. O novo resultado ",
+                                    "substitui o antigo. Esta Habilidade se soma a outros efeitos de Habilidades que permitem re-rolar os dados"
+                                ],
+                                "on": false
+                            }
+                        },
+                        "red": {
+                            "0": {
+                                "title": "+ 1 Ação de Movimento",
+                                "help": [
+                                    "O Sobrevivente ganha uma Ação extra de Movimento. Esta Ação pode ser usada somente para Movimento"
+                                ],
+                                "on": false
+                            },
+                            "1": {
+                                "title": "+ 1 no Dado: Combate",
+                                "help": [
+                                    "O Sobrevivente adiciona 1 ao resultado de cada dado que rolou em uma Ação de Combate (Corpo-a-corpo ",
+                                    "ou de Alcance). O Resultado máximo é sempre 6"
+                                ],
+                                "on": false
+                            },
+                            "2": {
+                                "title": "Sortudo",
+                                "help": [
+                                    "O Sobrevivente pode re-rolar, uma vez, todos os dados de cada Ação que ele fez. O novo resultado substitui o ",
+                                    "resultado anterior. Esta Habilidade se soma à outros efeitos de Habilidades (como “1 re-rolada por turno”, por ",
+                                    "exemplo) e Equipamentos que permitem re-rolar os dados"
+                                ],
+                                "on": false
+                            }
+                        }
+                    },
+                    "cards": {
+                        "hand": {
+                            "0": "",
+                            "1": ""
+                        },
+                        "reserve": {
+                            "0": "",
+                            "1": "",
+                            "2": ""
+                        }
+                    }
                 }
             },
             "Ned": {
@@ -90,7 +315,83 @@
                 "z-index": 99,
                 "title": "Ned",
                 "sheet": {
-                    "level": 0
+                    "level": 0,
+                    "actions": {
+                        "blue": {
+                            "0": {
+                                "title": "+ 1 Ação de Procura",
+                                "help": [
+                                    "O Sobrevivente ganha uma Ação extra de Procura. Esta Ação pode ser usada somente para Procurar e o Sobrevivente ",
+                                    "ainda pode Procurar somente uma vez por turno"
+                                ],
+                                "on": true
+                            }
+                        },
+                        "yellow": {
+                            "0": {
+                                "title": "+ 1 Ação",
+                                "help": [
+                                    "O Sobrevivente ganha uma Ação extra e pode usar como desejar"
+                                ],
+                                "on": false
+                            }
+                        },
+                        "orange": {
+                            "0": {
+                                "title": "+ 1 Dado: Alcance",
+                                "help": [
+                                    "A arma de Alcance do Sobrevivente rola um dado extra em uma Ação de Combate de Alcance (com Alcance maior ou ",
+                                    "igual a 1). Armas com Alcance Duplas ganham um dado cada, para um total de +2 dados por Ação de Combate Dupla ",
+                                    "de Alcance"
+                                ],
+                                "on": false
+                            },
+                            "1": {
+                                "title": "+ 1 Ação de Combate",
+                                "help": [
+                                    "O Sobrevivente ganha uma Ação extra de Combate. Esta Ação pode ser usada somente para Combate Corpo-a-corpo ",
+                                    "Combate de Alcance"
+                                ],
+                                "on": false
+                            }
+                        },
+                        "red": {
+                            "0": {
+                                "title": "+ 1 Dado: Combate",
+                                "help": [
+                                    "A arma do Sobrevivente rola um dado extra em Combate (Corpo-a-corpo ou de Alcance). Armas Duplas ganham um dado cada, ",
+                                    "para um total de +2 dados por Ação de Combate Dupla"
+                                ],
+                                "on": false
+                            },
+                            "1": {
+                                "title": "+ 1 no Dado: Combate",
+                                "help": [
+                                    "O Sobrevivente adiciona 1 ao resultado de cada dado que rolou em uma Ação de Combate (Corpo-a-corpo ",
+                                    "ou de Alcance). O Resultado máximo é sempre 6"
+                                ],
+                                "on": false
+                            },
+                            "2": {
+                                "title": "Durão",
+                                "help": [
+                                    "O Sobrevivente ignora o primeiro ataque que recebe de um só Zumbi, durante a Fase dos Zumbis"
+                                ],
+                                "on": false
+                            }
+                        }
+                    },
+                    "cards": {
+                        "hand": {
+                            "0": "",
+                            "1": ""
+                        },
+                        "reserve": {
+                            "0": "",
+                            "1": "",
+                            "2": ""
+                        }
+                    }
                 }
             },
             "Phil": {
@@ -105,7 +406,82 @@
                 "z-index": 99,
                 "title": "Phil",
                 "sheet": {
-                    "level": 0
+                    "level": 0,
+                    "actions": {
+                        "blue": {
+                            "0": {
+                                "title": "Começa com uma Pistola",
+                                "help": [
+                                    "O Sobrevivente começa o jogo com o Equipamento indicado; esta carta é entregue a ele automaticamente no início do jogo"
+                                ],
+                                "on": true
+                            }
+                        },
+                        "yellow": {
+                            "0": {
+                                "title": "+ 1 Ação",
+                                "help": [
+                                    "O Sobrevivente ganha uma Ação extra e pode usar como desejar"
+                                ],
+                                "on": false
+                            }
+                        },
+                        "orange": {
+                            "0": {
+                                "title": "+ 1 Ação de Procura",
+                                "help": [
+                                    "O Sobrevivente ganha uma Ação extra de Procura. Esta Ação pode ser usada somente para Procurar e o Sobrevivente ",
+                                    "ainda pode Procurar somente uma vez por turno"
+                                ],
+                                "on": false
+                            },
+                            "1": {
+                                "title": "+ 1 no Dado: Alcance",
+                                "help": [
+                                    "O Sobrevivente adiciona 1 ao resultado de cada dado que rolou em uma Ação de Combate de Alcance (com Alcance maior ",
+                                    "ou igual a 1). O Resultado máximo é sempre 6"
+                                ],
+                                "on": false
+                            }
+                        },
+                        "red": {
+                            "0": {
+                                "title": "+ 1 Dado: Alcance",
+                                "help": [
+                                    "A arma de Alcance do Sobrevivente rola um dado extra em uma Ação de Combate de Alcance (com Alcance maior ou ",
+                                    "igual a 1). Armas com Alcance Duplas ganham um dado cada, para um total de +2 dados por Ação de Combate Dupla ",
+                                    "de Alcance"
+                                ],
+                                "on": false
+                            },
+                            "1": {
+                                "title": "Líder Nato",
+                                "help": [
+                                    "Durante o turno do Sobrevivente, ele pode dar uma de suas Ações para outro Sobrevivente, para que ele utilize ",
+                                    "como desejar. Esta Ação deve ser utilizada durante o próximo turno do jogador que a recebeu, ou será perdida"
+                                ],
+                                "on": false
+                            },
+                            "2": {
+                                "title": "Precisão",
+                                "help": [
+                                    "O Sobrevivente pode escolher livremente o alvo de seus Combates de Alcance"
+                                ],
+                                "on": false
+                            }
+                        }
+                    },
+                    "cards": {
+                        "hand": {
+                            "0": "",
+                            "1": ""
+                        },
+                        "reserve": {
+                            "0": "",
+                            "1": "",
+                            "2": ""
+                        }
+                    }
                 }
             },
             "Wanda": {
@@ -120,7 +496,80 @@
                 "z-index": 99,
                 "title": "Wanda",
                 "sheet": {
-                    "level": 0
+                    "level": 0,
+                    "actions": {
+                        "blue": {
+                            "0": {
+                                "title": "2 Zonas por Movimento",
+                                "help": [
+                                    "Quando o Sobrevivente utiliza uma Ação para se Movimentar, ele pode se mover uma ou duas Zonas ao invés de uma"
+                                ],
+                                "on": true
+                            }
+                        },
+                        "yellow": {
+                            "0": {
+                                "title": "+ 1 Ação",
+                                "help": [
+                                    "O Sobrevivente ganha uma Ação extra e pode usar como desejar"
+                                ],
+                                "on": false
+                            }
+                        },
+                        "orange": {
+                            "0": {
+                                "title": "+ 1 no Dado: Corpo-a-corpo",
+                                "help": [
+                                    "O Sobrevivente adiciona 1 ao resultado de cada dado que rolou em uma Ação de Combate Corpo-a-corpo. O Resultado ",
+                                    "máximo é sempre 6"
+                                ],
+                                "on": false
+                            },
+                            "1": {
+                                "title": "Liso",
+                                "help": [
+                                    "O Sobrevivente não gasta Ações Extras quando realiza uma Ação de Movimento através de Zonas que contém Zumbis"
+                                ],
+                                "on": false
+                            }
+                        },
+                        "red": {
+                            "0": {
+                                "title": "+ 1 Dado: Combate",
+                                "help": [
+                                    "A arma do Sobrevivente rola um dado extra em Combate (Corpo-a-corpo ou de Alcance). Armas Duplas ganham um dado cada, ",
+                                    "para um total de +2 dados por Ação de Combate Dupla"
+                                ],
+                                "on": false
+                            },
+                            "1": {
+                                "title": "+ 1 Ação de Movimento",
+                                "help": [
+                                    "O Sobrevivente ganha uma Ação extra de Movimento. Esta Ação pode ser usada somente para Movimento"
+                                ],
+                                "on": false
+                            },
+                            "2": {
+                                "title": "+ 1 Zona por Movimento",
+                                "help": [
+                                    "O Sobrevivente pode se mover por uma Zona a mais cada hora que realiza uma Ação de Movimento. Esta Habilidade se soma ",
+                                    "a outros efeitos de Habilidades que beneficiem Ações de Movimento"
+                                ],
+                                "on": false
+                            }
+                        }
+                    },
+                    "cards": {
+                        "hand": {
+                            "0": "",
+                            "1": ""
+                        },
+                        "reserve": {
+                            "0": "",
+                            "1": "",
+                            "2": ""
+                        }
+                    }
                 }
             }
         },

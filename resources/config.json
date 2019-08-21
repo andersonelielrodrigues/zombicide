@@ -7,5 +7,9 @@
     "sheetset": "resources/sprites/sheetset.json",
     "itemdeck": 62,
     "spawndeck": 54,
-    "levelsize": 17.4
+    "levelsize": 17.4,
+    "levelblue": 6,
+    "levelyellow": 18,
+    "levelorange": 42,
+    "levelred": 43
 }
