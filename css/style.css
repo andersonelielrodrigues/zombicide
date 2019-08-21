@@ -65,3 +65,87 @@ a:hover {
     color: #333;
     z-index: 200;
 }
+
+.action_blue_0 {
+    position: absolute;
+    top: 90px;
+    left: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+    z-index: 200;
+    cursor: pointer;
+}
+
+.action_yellow_0 {
+    position: absolute;
+    top: 90px;
+    left: 235px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+    z-index: 200;
+    cursor: pointer;
+}
+
+.action_orange_0 {
+    position: absolute;
+    top: 90px;
+    left: 425px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+    z-index: 200;
+    cursor: pointer;
+}
+
+.action_orange_1 {
+    position: absolute;
+    top: 117px;
+    left: 425px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+    z-index: 200;
+    cursor: pointer;
+}
+
+.action_red_0 {
+    position: absolute;
+    top: 90px;
+    left: 615px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+    z-index: 200;
+    cursor: pointer;
+}
+
+.action_red_1 {
+    position: absolute;
+    top: 117px;
+    left: 615px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+    z-index: 200;
+    cursor: pointer;
+}
+
+.action_red_2 {
+    position: absolute;
+    top: 144px;
+    left: 615px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+    z-index: 200;
+    cursor: pointer;
+}

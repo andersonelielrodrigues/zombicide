@@ -488,7 +488,7 @@ function loadImage(pImage, pSet, pOptions, pTxt, pId) {
 
         // carrega evento de abertura da ficha
         if(pOptions.Open) {
-            oImg.addEventListener("click", function() {
+            oImg.addEventListener("contextmenu", function() {
                 openSheet(pImage.title);
             });
         }
@@ -678,7 +678,8 @@ function rebuildDeck(pNumber, pOptions, pType) {
 
 // abertura da ficha
 function openSheet(pId) {
-    var oCharset = this.jCharset.frames.survivors[pId];
+    var oCharset = this.jCharset.frames.survivors[pId],
+        oSheetOptions = loadOptions(this.jSheetset);
 
     new $.Zebra_Dialog(
         {
@@ -689,8 +690,6 @@ function openSheet(pId) {
         }
     );
 
-    var oSheetOptions = loadOptions(this.jSheetset);
-
     loadImage(this.jSheets.sheet, this.oSheetset, oSheetOptions, null, null);
 
     this.jSheets.level.x = (oCharset.sheet.level + 1) * this.jConfig.levelsize;
@@ -698,8 +697,25 @@ function openSheet(pId) {
     loadImage(this.jSheets.level, this.oSheetset, oSheetOptions, null, null);
 
     loadImage(this.jSheets[pId.toLowerCase()], this.oSheetset, oSheetOptions, null, null);
-    
-    var oSpan = loadSpan("sheet_name", pId, 0);
+
+    loadSheetTxt("sheet_name", pId, "");
+
+    var oActions = oCharset.sheet.actions;
+
+    loadSheetTxt("action_blue_0", oActions.blue[0].title, oActions.blue[0].help);
+    loadSheetTxt("action_yellow_0", oActions.yellow[0].title, oActions.yellow[0].help);
+    loadSheetTxt("action_orange_0", oActions.orange[0].title, oActions.orange[0].help);
+    loadSheetTxt("action_orange_1", oActions.orange[1].title, oActions.orange[1].help);
+    loadSheetTxt("action_red_0", oActions.red[0].title, oActions.red[0].help);
+    loadSheetTxt("action_red_1", oActions.red[1].title, oActions.red[1].help);
+    loadSheetTxt("action_red_2", oActions.red[2].title, oActions.red[2].help);
+}
+
+// carregar habilidades
+function loadSheetTxt(pClass, pText, pTitle) {
+    var oSpan = loadSpan(pClass, pText, 0);
+
+    oSpan.title = pTitle;
 
     document.getElementById("sheet").appendChild(oSpan);
 }
