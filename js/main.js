@@ -745,7 +745,7 @@ function changeLevel(event) {
         vSurv = document.getElementById("sheet_name").innerText,
         oSheetOptions = loadOptions(this.jSheetset);
 
-    var oCharset = this.jCharset.frames.survivors[vSurv]
+    var oCharset = this.jCharset.frames.survivors[vSurv];
 
     if(vId === "plus") {
         if(oCharset.sheet.level < this.jConfig.levelmax) {
@@ -799,11 +799,22 @@ function onChangeMission() {
 // reinicia posição de personagens e tokens
 function resetObjects() {
     destroyImg(this.jSurvivors.Amy.id, this.jSurvivors.Amy.copies);
+    resetSheet(this.jSurvivors.Amy.title);
+
     destroyImg(this.jSurvivors.Doug.id, this.jSurvivors.Doug.copies);
+    resetSheet(this.jSurvivors.Doug.title);
+
     destroyImg(this.jSurvivors.Josh.id, this.jSurvivors.Josh.copies);
+    resetSheet(this.jSurvivors.Josh.title);
+
     destroyImg(this.jSurvivors.Ned.id, this.jSurvivors.Ned.copies);
+    resetSheet(this.jSurvivors.Ned.title);
+
     destroyImg(this.jSurvivors.Phil.id, this.jSurvivors.Phil.copies);
+    resetSheet(this.jSurvivors.Phil.title);
+
     destroyImg(this.jSurvivors.Wanda.id, this.jSurvivors.Wanda.copies);
+    resetSheet(this.jSurvivors.Wanda.title);
 
     destroyImg(this.jZombies.Walker.id, this.jZombies.Walker.copies);
     destroyImg(this.jZombies.Runner.id, this.jZombies.Runner.copies);
@@ -852,6 +863,27 @@ function resetObjects() {
     var oSpawnOptions = loadOptions(this.jSpawnset);
 
     rebuildDeck(this.oDeckSpawn.length, oSpawnOptions, "Spawn");
+}
+
+// reinicia dados da ficha de personagem
+function resetSheet(pId) {
+    var oCharset = this.jSurvivors[pId].sheet;
+
+    oCharset.level = 0;
+
+    oCharset.actions.blue[0].on = true;
+    oCharset.actions.yellow[0].on = false;
+    oCharset.actions.orange[0].on = false;
+    oCharset.actions.orange[1].on = false;
+    oCharset.actions.red[0].on = false;
+    oCharset.actions.red[1].on = false;
+    oCharset.actions.red[2].on = false;
+
+    oCharset.cards.hand[0] = "";
+    oCharset.cards.hand[1] = "";
+    oCharset.cards.reserve[0] = "";
+    oCharset.cards.reserve[1] = "";
+    oCharset.cards.reserve[2] = "";
 }
 
 // abre briefing da missão
