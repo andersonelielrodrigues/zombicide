@@ -679,14 +679,23 @@ function rebuildDeck(pNumber, pOptions, pType) {
 // abertura da ficha
 function openSheet(pId) {
     var oCharset = this.jCharset.frames.survivors[pId],
-        oSheetOptions = loadOptions(this.jSheetset);
+        oSheetOptions = loadOptions(this.jSheetset),
+        oSheet = document.createElement("DIV");
+
+    oSheet.id = "sheet";
+
+    var oSpanMinus = loadButton("minus", "Descer nível"),
+        oSpanPlus =  loadButton("plus", "Subir nível");
+
+    oSheet.appendChild(oSpanMinus);
+    oSheet.appendChild(oSpanPlus);
 
     new $.Zebra_Dialog(
         {
             width: 800,
             height: 457,
             buttons: false,
-            message: "<div id='sheet'/>"
+            message: oSheet
         }
     );
 
@@ -698,24 +707,72 @@ function openSheet(pId) {
 
     loadImage(this.jSheets[pId.toLowerCase()], this.oSheetset, oSheetOptions, null, null);
 
-    loadSheetTxt("sheet_name", pId, "");
+    loadSheetTxt("sheet_name", pId, "", true);
 
     var oActions = oCharset.sheet.actions;
 
-    loadSheetTxt("action_blue_0", oActions.blue[0].title, oActions.blue[0].help);
-    loadSheetTxt("action_yellow_0", oActions.yellow[0].title, oActions.yellow[0].help);
-    loadSheetTxt("action_orange_0", oActions.orange[0].title, oActions.orange[0].help);
-    loadSheetTxt("action_orange_1", oActions.orange[1].title, oActions.orange[1].help);
-    loadSheetTxt("action_red_0", oActions.red[0].title, oActions.red[0].help);
-    loadSheetTxt("action_red_1", oActions.red[1].title, oActions.red[1].help);
-    loadSheetTxt("action_red_2", oActions.red[2].title, oActions.red[2].help);
+    loadSheetTxt("action_blue_0", oActions.blue[0].title, oActions.blue[0].help, false);
+    loadSheetTxt("action_yellow_0", oActions.yellow[0].title, oActions.yellow[0].help, false);
+    loadSheetTxt("action_orange_0", oActions.orange[0].title, oActions.orange[0].help, false);
+    loadSheetTxt("action_orange_1", oActions.orange[1].title, oActions.orange[1].help, false);
+    loadSheetTxt("action_red_0", oActions.red[0].title, oActions.red[0].help, false);
+    loadSheetTxt("action_red_1", oActions.red[1].title, oActions.red[1].help, false);
+    loadSheetTxt("action_red_2", oActions.red[2].title, oActions.red[2].help, false);
+}
+
+// carregar botões de nível
+function loadButton(pIcon, pTitle) {
+    var oSpan = document.createElement("SPAN"),
+        oItem = document.createElement("I");
+
+    oSpan.id = pIcon;
+
+    oItem.className = "fa fa-" + pIcon + "-circle fa-lg " + pIcon + "_button";
+    oItem.title = pTitle;
+
+    oItem.addEventListener("click", function(event) {
+        changeLevel(event);
+    });
+
+    oSpan.appendChild(oItem);
+
+    return oSpan;
+}
+
+// muda nível
+function changeLevel(event) {
+    var vId = event.target.parentElement.id,
+        vSurv = document.getElementById("sheet_name").innerText,
+        oSheetOptions = loadOptions(this.jSheetset);
+
+    var oCharset = this.jCharset.frames.survivors[vSurv]
+
+    if(vId === "plus") {
+        if(oCharset.sheet.level < this.jConfig.levelmax) {
+            oCharset.sheet.level++;
+        }
+    } else if(vId === "minus") {
+        if(oCharset.sheet.level > this.jConfig.levelmin) {
+            oCharset.sheet.level--;
+        }
+    }
+
+    document.getElementById("level_1").remove();
+
+    this.jSheets.level.x = (oCharset.sheet.level + 1) * this.jConfig.levelsize;
+
+    loadImage(this.jSheets.level, this.oSheetset, oSheetOptions, null, null);
 }
 
 // carregar habilidades
-function loadSheetTxt(pClass, pText, pTitle) {
+function loadSheetTxt(pClass, pText, pTitle, pId) {
     var oSpan = loadSpan(pClass, pText, 0);
 
     oSpan.title = pTitle;
+
+    if(pId) {
+        oSpan.id = pClass;
+    }
 
     document.getElementById("sheet").appendChild(oSpan);
 }

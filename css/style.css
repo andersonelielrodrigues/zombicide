@@ -149,3 +149,19 @@ a:hover {
     z-index: 200;
     cursor: pointer;
 }
+
+.minus_button {
+    position: absolute;
+    top: 40px;
+    left: 1px;
+    color: orangered;
+    z-index: 200;
+}
+
+.plus_button {
+    position: absolute;
+    top: 40px;
+    left: 781px;
+    color: orangered;
+    z-index: 200;
+}
