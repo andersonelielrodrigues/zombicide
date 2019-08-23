@@ -8,6 +8,8 @@
     "itemdeck": 62,
     "spawndeck": 54,
     "levelsize": 17.4,
+    "levelmin": 0,
+    "levelmax": 43,
     "levelblue": 6,
     "levelyellow": 18,
     "levelorange": 42,
